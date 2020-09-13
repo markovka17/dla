@@ -2,7 +2,7 @@
 
 # Syllabus
 
-- [__week01__]() Introduction to Digital Signal Processing
+- [__week01__](./week01) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MFCC and etc
   - Seminar: Intro in PyTorch, DevOps, R&D in Deep Learning
   
