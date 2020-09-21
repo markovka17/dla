@@ -7,6 +7,7 @@
 * __Seminar:__ `./seminar.ipynb`
 
 ### Additional Materials
+* [Tool for RIR simulation](https://github.com/LCAV/pyroomacoustics)
 * [SpecAug](https://arxiv.org/pdf/1904.08779.pdf)
 * [Noising with diff Audio. (3.1 chapter)](https://arxiv.org/pdf/1808.00563.pdf)
 * [DeepSpeech](https://arxiv.org/abs/1412.5567)
