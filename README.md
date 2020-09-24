@@ -11,5 +11,10 @@
   - Seminar: Docker, W&B, Augmentations for Audio
 
 - [__week03__](./week03) Automatic Speech Recognition II
-  - Lecture: LM, Fusing, Jasper, QurtzNet, ContextNet
-  - Seminar: BPE, LM
+  - Lecture: LM Fusing, RNN Transducer, Schedule Sampling, BPE
+  - Seminar: Jasper, QurtzNet, Mixed Precision Training, DDP/DP
+  
+- [__week04__](./week04) Key-word spottind (KWS) and Voice Activity Detection (VAD)
+  - Lecture:
+  - Seminar: 
+  
