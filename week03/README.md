@@ -5,6 +5,7 @@
 
 ### Practice & homework
 * __Seminar:__ `./seminar.ipynb`
+* __Homework:__ `./homework.ipynb`
 
 ### Additional Materials
 * [Mixed Precision Training](https://arxiv.org/pdf/1710.03740.pdf)
