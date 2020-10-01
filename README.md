@@ -18,3 +18,23 @@
   - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
   - Seminar: Speeding Up NN: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
   
+- [__week05__](./week05) Speaker verification and identification
+
+- [__week06__](./week06) Text to Speech
+
+- [__week07__](./week07) Voice Conversion
+
+- [__week08__](./week08) Neural Vocoders
+
+- [__week09__](./week09) Music Generation
+
+- [__week10__](./week10) Denoising and Speaker Diarization
+
+- [__week11__](./week11) Self-supervision in audio and speech
+
+
+
+
+
+
+  
