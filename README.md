@@ -15,6 +15,6 @@
   - Seminar: Jasper, QurtzNet, Mixed Precision Training, DDP/DP
   
 - [__week04__](./week04) Key-word spottind (KWS) and Voice Activity Detection (VAD)
-  - Lecture:
-  - Seminar: 
+  - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
+  - Seminar: Speeding Up NN: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
   
