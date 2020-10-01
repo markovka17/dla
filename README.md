@@ -16,7 +16,7 @@
   
 - [__week04__](./week04) Key-word spottind (KWS) and Voice Activity Detection (VAD)
   - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
-  - Seminar: Speeding Up NN: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
+  - Seminar: Speeding Up NNs: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
   
 - [__week05__](./week05) Speaker verification and identification
 
