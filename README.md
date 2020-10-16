@@ -15,6 +15,30 @@
   - Seminar: Jasper, QurtzNet, Mixed Precision Training, DDP/DP
   
 - [__week04__](./week04) Key-word spottind (KWS) and Voice Activity Detection (VAD)
-  - Lecture:
-  - Seminar: 
+  - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
+  - Seminar: Speeding Up NNs: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
+  
+- [__week05__](./week05) Speaker verification and identification
+  - Lecture: Metric Learning: Cosine, Contrastive, Triplet Losses. Angular Softmax. ArcFace
+  - Seminar: Generalized End2End Loss for Speaker Verification
+
+- [__week06__](./week06) Text to Speech
+  - Lecture: Tacotron, DeepVoice, GST, FastSpeech, GlowTTS, Guided Attetnion, Attention Tricks, G2P
+  - Seminar: Tacotron2 in PyTorch
+
+- [__week07__](./week07) Voice Conversion
+
+- [__week08__](./week08) Neural Vocoders
+
+- [__week09__](./week09) Music Generation
+
+- [__week10__](./week10) Denoising and Speaker Diarization
+
+- [__week11__](./week11) Self-supervision in audio and speech
+
+
+
+
+
+
   
