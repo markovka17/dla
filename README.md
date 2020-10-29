@@ -24,11 +24,15 @@
 
 - [__week06__](./week06) Text to Speech
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, Attention Tricks
-  - Seminar: Tacotron2 in PyTorch
+  - Seminar: Location-Sensitive Attention
 
-- [__week07__](./week07) Voice Conversion
+- [__week07__](./week08) Neural Vocoders
+  - Lecture: Introduction into generative models: AR, GAN, NF. WaveNet, ParallelWaveNet, WaveRNN, WaveGlow, WaveFlow, MelGAN, PWG.
+  - Seminar: Generative models for dummies
 
-- [__week08__](./week08) Neural Vocoders
+- [__week08__](./week07) Voice Conversion
+  - Lecture: AutoVC, ConVoice, TTS Skins, VAE-VC, CycleVAE, StarGAN-VC, CycleGAN
+  - Seminar: 
 
 - [__week09__](./week09) Music Generation
 
