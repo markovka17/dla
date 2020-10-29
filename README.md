@@ -23,7 +23,7 @@
   - Seminar: Generalized End2End Loss for Speaker Verification
 
 - [__week06__](./week06) Text to Speech
-  - Lecture: Tacotron, DeepVoice, GST, FastSpeech, GlowTTS, Attention Tricks, G2P, Text Normalization
+  - Lecture: Tacotron, DeepVoice, GST, FastSpeech, Attention Tricks
   - Seminar: Tacotron2 in PyTorch
 
 - [__week07__](./week07) Voice Conversion
