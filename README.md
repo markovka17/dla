@@ -27,14 +27,13 @@
   - Seminar: Location-Sensitive Attention
 
 - [__week07__](./week08) Neural Vocoders
-  - Lecture: Introduction into generative models: AR, GAN, NF. WaveNet, ParallelWaveNet, WaveRNN, WaveGlow, WaveFlow, MelGAN, PWG.
-  - Seminar: Generative models for dummies
+  - Lecture: Introduction into generative models: AR, GAN, NF. WaveNet, ParallelWaveNet, WaveGlow, WaveFlow, MelGAN, PWG.
 
 - [__week08__](./week07) Voice Conversion
-  - Lecture: AutoVC, ConVoice, TTS Skins, VAE-VC, CycleVAE, StarGAN-VC, CycleGAN
-  - Seminar: 
+  - Lecture: AutoVC, ConVoice, TTS Skins, VAE-VC, CycleVAE, StarGAN-VC, CycleGAN, Blow
 
 - [__week09__](./week09) Music Generation
+  - Lecture: VQVAE, Sparse Transformer, MuseNet, JukeBox
 
 - [__week10__](./week10) Denoising and Speaker Diarization
 
