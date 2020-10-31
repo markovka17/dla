@@ -1,4 +1,6 @@
-# Deep learning for audio processing
+# Deep Learning for Audio (DLA)
+- Lecture and seminar materials for each week are in ./week* folders, see README.md for materials and instructions
+- Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
 
 # Syllabus
 
