@@ -3,6 +3,9 @@
 * [Lecture slides](https://docs.google.com/presentation/d/12l6Lzp11XtJHuBJoJiaOJhBE2pntBnM0PnfDBlfOL8M/edit?usp=sharing)
 * Videos (TBA)
 
+### Practice & homework
+* __Homework:__ `./homework.ipynb`
+
 ### Additional Materials
 * [CrowdMOS](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/05/0002416.pdf)
 * [Tacotron](https://www.dropbox.com/s/jylcdcu1lt607oa/Tacotron.pdf?dl=0)
