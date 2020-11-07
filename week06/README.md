@@ -5,6 +5,7 @@
 
 ### Practice & homework
 * __Homework:__ `./homework.ipynb`
+* __Seminar:__ `./seminar.ipynb`
 
 ### Additional Materials
 * [CrowdMOS](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/05/0002416.pdf)
