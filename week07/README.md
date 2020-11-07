@@ -3,6 +3,9 @@
 * [Lecture slides](https://docs.google.com/presentation/d/1wBUCdVAJghwiHNt7w2gQ0Lf2HDDdXoin3C5UpFL9YJw/edit?usp=sharing)
 * Videos (TBA)
 
+### Practice & homework
+* __Homework:__ `./homework.ipynb`
+
 ### Additional Materials
 * [GAN](https://arxiv.org/pdf/1406.2661.pdf)
 * [NICE](https://www.dropbox.com/s/f0dbo6tk4w9hvo5/NICE.pdf?dl=0)
