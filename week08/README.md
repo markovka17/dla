@@ -1,6 +1,6 @@
 # Week 08
 
-* [Lecture slides]()
+* [Lecture slides](https://docs.google.com/presentation/d/1xVMq_PRe8fm3cjBkY0skeBh_iRMH61JmlzKksLT-i10/edit?usp=sharing)
 * Videos (TBA)
 
 ### Additional Materials
