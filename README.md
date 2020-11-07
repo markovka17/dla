@@ -32,12 +32,12 @@
   - Lecture: Introduction into generative models: AR, GAN, NF. WaveNet, ParallelWaveNet, WaveGlow, WaveFlow, MelGAN, PWG.
 
 - [__week08__](./week07) Voice Conversion
-  - Lecture: AutoVC, ConVoice, TTS Skins, VAE-VC, CycleVAE, StarGAN-VC, CycleGAN, Blow
+  - Lecture: AutoVC, ConVoice, TTS Skins, StarGAN-VC-1-2, CycleGAN-1-2-3, Blow
 
 - [__week09__](./week09) Music Generation
   - Lecture: VQVAE, Sparse Transformer, MuseNet, JukeBox
 
-- [__week10__](./week10) Denoising and Speaker Diarization
+- [__week10__](./week10) Speech Enhancement, Denoising and Speaker Diarization
 
 - [__week11__](./week11) Self-supervision in audio and speech
 
