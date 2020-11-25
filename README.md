@@ -38,12 +38,7 @@
   - Lecture: VQVAE, Sparse Transformer, MuseNet, JukeBox
 
 - [__week10__](./week10) Speech Enhancement, Denoising and Speaker Diarization
+  - Lecture: SEGAN, TF Masking, HiFi Denoising, Speaker Diarization, VAD
 
-- [__week11__](./week11) Self-supervision in audio and speech
-
-
-
-
-
-
-  
+- [__week11__](./week11) Self-supervision in Audio and Speech
+  - Lecture: TODO
