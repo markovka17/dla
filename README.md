@@ -41,4 +41,4 @@
   - Lecture: SEGAN, TF Masking, HiFi Denoising, Speaker Diarization, VAD
 
 - [__week11__](./week11) Self-supervision in Audio and Speech
-  - Lecture: TODO
+  - Lecture: Intro to SS Learning. InfoNCE, CPC
