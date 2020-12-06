@@ -1,6 +1,7 @@
 # Deep Learning for Audio (DLA)
 - Lecture and seminar materials for each week are in ./week* folders, see README.md for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
+- The current version of the course is conducted in autumn 2020 at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/)
 
 # Syllabus
 
@@ -42,3 +43,24 @@
 
 - [__week11__](./week11) Self-supervision in Audio and Speech
   - Lecture: Intro to SS Learning. InfoNCE, CPC
+
+# Homeworks
+- [__DSP__](./week01/homework.ipynb)
+  Implementation of basic ops like FFT, Spectrogram and MelScale
+  
+- [__ASR__](./week03/homework.ipynb)
+  Implementation of small ASR model, beam search and LM fusing
+  
+- [__KWS__](./week04/homework.ipynb)
+  Implementation of attention based KWS model, streaming scoring and model distillation
+  
+- [__TTS__](./week06/homework.ipynb)
+  Implementation of TTS model with different tricks
+
+- [__NV__](./week07/homework.ipynb)
+  Implementation of Neural Vocoder Model
+  
+# Contributors & course staff
+Course materials and teaching performed by
+- [Alexander Markovich](https://t.me/markovka17)
+- [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
