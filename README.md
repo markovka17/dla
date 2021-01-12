@@ -1,3 +1,5 @@
+![logo5v1](https://user-images.githubusercontent.com/20357655/104316876-2be04600-54ee-11eb-93ed-f9835fde1527.jpg)
+
 # Deep Learning for Audio (DLA)
 - Lecture and seminar materials for each week are in ./week* folders, see README.md for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
