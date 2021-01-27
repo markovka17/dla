@@ -31,10 +31,10 @@
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, Attention Tricks
   - Seminar: Location-Sensitive Attention
 
-- [__week07__](./week08) Neural Vocoders
+- [__week07__](./week07) Neural Vocoders
   - Lecture: Introduction into generative models: AR, GAN, NF. WaveNet, ParallelWaveNet, WaveGlow, WaveFlow, MelGAN, PWG.
 
-- [__week08__](./week07) Voice Conversion
+- [__week08__](./week08) Voice Conversion
   - Lecture: AutoVC, ConVoice, TTS Skins, StarGAN-VC-1-2, CycleGAN-1-2-3, Blow
 
 - [__week09__](./week09) Music Generation
