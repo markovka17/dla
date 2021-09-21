@@ -3,11 +3,19 @@
 # Deep Learning for Audio (DLA)
 - Lecture and seminar materials for each week are in ./week* folders, see README.md for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
-- The current version of the course is conducted in autumn 2020 at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/)
+- The current version of the course is conducted in autumn 2021 at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/)
 
 # Syllabus
 
 - [__week01__](./week01) Introduction to Digital Signal Processing
+  - Lecture: Introduction
+  - Seminar: Intro in `pytorch`
+
+- [__week02__](./week02) Introduction to Digital Signal Processing
+  - Lecture: Signals, Fourier transform, Spectrograms, MelScale, MFCC and etc
+  - Seminar: `torchaudio`, spoken digit classification
+
+<!-- - [__week01__](./week01) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MFCC and etc
   - Seminar: Intro in PyTorch, DevOps, R&D in Deep Learning
   
@@ -45,11 +53,11 @@
 
 - [__week11__](./week11) Self-supervision in Audio and Speech
   - Lecture: Intro to SS Learning. InfoNCE, CPC
-
+ -->
 # Homeworks
-- [__DSP__](./week01/homework.ipynb)
+<!-- - [__DSP__](./week01/homework.ipynb)
   Implementation of basic ops like FFT, Spectrogram and MelScale
-  
+   -->
 - [__ASR__](./week03/homework.ipynb)
   Implementation of small ASR model, beam search and LM fusing
   
