@@ -1,5 +1,14 @@
 # Week 03
 
+# Slides
+__TBA__
+
+* Automatic speech recognition (ASR)
+* Metrics for ASR
+* CTC loss function
+* "Listen, Attend and Spell" archetecture
+* Beam-search
+
 ### Prerequisites
 
 * This lecture assumes you are familiar with the __attention mechanism__. If you're not feeling confident about this
@@ -12,6 +21,12 @@
 ### Practice & homework
 
 __TBA__
+* Audio augmentations with code and examples
+* Practical excersises
+    * Writing and testing WER-metric
+    * Implementing CTC decoding
+    * Implementing CTC beam-search
+* (*bonus!*) Intro to PyCharm
 
 ### Additional Materials
 
