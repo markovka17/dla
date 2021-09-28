@@ -15,6 +15,10 @@
   - Lecture: Signals, Fourier transform, Spectrograms, MelScale, MFCC and etc
   - Seminar: `torchaudio`, spoken digit classification
 
+- [__week03__](./week03) Automatic Speech Recognition I
+  - Lecture: Metrics, Attention, CTC, LAS, BeamSearch
+  - Seminar: Audio augmentations, CTC decoding, CTC BeamSearch
+
 <!-- - [__week01__](./week01) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MFCC and etc
   - Seminar: Intro in PyTorch, DevOps, R&D in Deep Learning
