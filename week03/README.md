@@ -28,9 +28,9 @@
 * (*bonus!*) Intro to PyCharm
 
 ### Additional Materials
-1) [wer are we](https://github.com/syhw/wer_are_we) - track global ASR progress on various datasets
-
 *All links are provided on the last slide of the lecture*
+
+1) [wer are we](https://github.com/syhw/wer_are_we) - track global ASR progress on various datasets
 2) (paper) Librispeech: An ASR corpus based on public domain audio books (2015)
 3) (paper) Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks [2006] 
 4) (blog post) Sequence Modeling With CTC 
