@@ -51,14 +51,15 @@ We also require that you fulfill the following requirements. Not fulfilling them
 | Score  | Dataset | CER | WER| Description|
 | ------------- | ------------- | ------------- | ------------- | -------------      |
 | 1.0 | -- | -- | -- | At least you tried |
-| 2.0 | LibriSpeech: test-clean | 50 | -- | Well, it's something |
-| 3.0 | LibriSpeech: test-clean | 30 | -- | You can guess the target phrase if you try |
-| 4.0 | LibriSpeech: test-clean | 20 | -- | It gets some words right |
-| 5.0 | LibriSpeech: test-clean | -- | 40 | More than half of the words are looking fine |
-| 6.0 | LibriSpeech: test-clean | -- | 30 | It's quite readable |
-| 7.0 | LibriSpeech: test-clean | -- | 20 | Occasional mistakes  |
-| 8.0 | LibriSpeech: test-other | -- | 20 | Your network can handle noisy audio. Good job. |
-| 9.0 | LibriSpeech: test-other | -- | 10 | Technically better than a human |
+| 2.0 | LibriSpeech: test-clean | 75 | -- | It's probably just predicting common characters at this point |
+| 3.0 | LibriSpeech: test-clean | 50 | -- | Well, it's something |
+| 4.0 | LibriSpeech: test-clean | 30 | -- | You can guess the target phrase if you try |
+| 5.0 | LibriSpeech: test-clean | 20 | -- | It gets some words right |
+| 6.0 | LibriSpeech: test-clean | -- | 40 | More than half of the words are looking fine |
+| 7.0 | LibriSpeech: test-clean | -- | 30 | It's quite readable |
+| 8.0 | LibriSpeech: test-clean | -- | 20 | Occasional mistakes  |
+| 9.0 | LibriSpeech: test-other | -- | 20 | Your network can handle noisy audio. Good job. |
+| 10.0 | LibriSpeech: test-other | -- | 10 | Technically better than a human. Well done! |
 
 __Note__: all the results will be sanity-checked on an unannounced dataset. 
 So it's not a good idea to fine-tune on a test set. 
