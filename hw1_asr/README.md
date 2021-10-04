@@ -1,7 +1,7 @@
 # Homework 1 (ASR)
 
 ### Task
-Implement and train a speech recognition system.
+Implement and train a neural-network speech recognition system with CTC loss.
 
 
 --------------
@@ -16,7 +16,9 @@ We don't accept homework if any of the following requirements are not satisfied:
 * Generally, your `test.py` and `train.py` scripts should run without issues after running all commands in your installation guide.
 * You must provide the logs for the training of your final model from the start of the training. 
   Either use W&B reports or include your tensorboard directory in the resources of your project.
-  
+* Attech a brief report. How did you train your final model? What did you try? 
+  What worked and what didn't? What were the major challenges? 
+  Also attach a summary of all bonus tasks you've implemented.
 
 
 --------------
@@ -67,9 +69,9 @@ It will be considered cheating.
 
 --------------
 ### Optional tasks
-* (`1.0`) BPE instead of characters. You can use SentencePiece, HuggingFace, or YouTokenToMe.
+* (`+1.0`) BPE instead of characters. You can use SentencePiece, HuggingFace, or YouTokenToMe.
 * (`+1.5`) Use an external language model for evaluation. The choice of an LM-fusion method is up to you.
-* (up to `+3.0`) Train a LAS model (instead CTC / with CTC). Don't forget to log your attention matrices. 
+* (up to `+3.0`) Train a LAS/RNN-T model (instead CTC / with CTC). Don't forget to log your attention matrices. 
   You can skip beam-search or implement it for an extra *+1.0*
 * (`+3.0`) Russian ASR. We will use test part of the russian Common Voice dataset for estimating your `quality_score`. 
   Note: this option has a high score value, but russian language is generally more difficult to recognize, 
@@ -77,10 +79,15 @@ It will be considered cheating.
 
 --------------
 ### Bonus points / penalties
-We can subtract or add up to 1.0 points for extremely bad or surprisingly clean code structure.
+We can subtract or add up to `1.0 points` for extremely bad or surprisingly clean code structure.
 
 --------------
 ### Recommended workflow
+
+Recommended archetectures:
+* [QuartzNet](https://arxiv.org/abs/1910.10261)
+* [Jasper](https://arxiv.org/pdf/1904.03288.pdf)
+* [DeepSpeech2](http://proceedings.mlr.press/v48/amodei16.pdf)
 
 Training a good NN model is a challenging task that is extremely difficult to debug.
 We recommend you follow these steps:
