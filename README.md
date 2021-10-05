@@ -62,17 +62,8 @@
 <!-- - [__DSP__](./week01/homework.ipynb)
   Implementation of basic ops like FFT, Spectrogram and MelScale
    -->
-- [__ASR__](./week03/homework.ipynb)
-  Implementation of small ASR model, beam search and LM fusing
-  
-- [__KWS__](./week04/homework.ipynb)
-  Implementation of attention based KWS model, streaming scoring and model distillation
-  
-- [__TTS__](./week06/homework.ipynb)
-  Implementation of TTS model with different tricks
-
-- [__NV__](./week07/homework.ipynb)
-  Implementation of Neural Vocoder Model
+- [__ASR__](./hw1_asr)
+  Implementation of ASR model
   
 # Contributors & course staff
 Course materials and teaching performed by
