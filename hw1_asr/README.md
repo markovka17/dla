@@ -16,8 +16,14 @@ We don't accept homework if any of the following requirements are not satisfied:
 * Generally, your `test.py` and `train.py` scripts should run without issues after running all commands in your installation guide.
 * You must provide the logs for the training of your final model from the start of the training. 
   Either use W&B reports or include your tensorboard directory in the resources of your project.
-* Attech a brief report. How did you train your final model? What did you try? 
-  What worked and what didn't? What were the major challenges? 
+* Attech a brief report. That includes:
+  * How to reproduce your model? (_example: train 50 epochs with config `train_1.json` and 50 epochs with `train_2.json`_)
+  * Attach training logs to show how fast did you network train
+  * How did you train your final model? 
+  * What have you tried?
+  * What worked and what didn't work?
+  * What were the major challenges? 
+   
   Also attach a summary of all bonus tasks you've implemented.
 
 
@@ -29,22 +35,21 @@ grade =
     - (1.0 * days_expired) 
     - implementation_penalty 
     + optional_tasks_score
-max_grade = max(grade, 10)
 ```
 
 
 --------------
 ### Implementation penalties
 We also require that you fulfill the following requirements. Not fulfilling them will result in score penalties.
-* (Up to `-2.0 points`) Logging. Your tensorboard/W&B logs should include:
-  * Text reports, including `target: {target_text}, prediction: {prediction_text}, CER: {cer}, WER: {wer}`
+* (Up to `-2.0 points` if missing) Logging. Your tensorboard/W&B logs should include:
+  * Text reports with random samples, including `target: {target_text}, prediction: {prediction_text}, CER: {cer}, WER: {wer}`
   * Images of your train/valid spectrograms
   * Gradient norm
   * Learning rate
   * Loss
   * audio records (after augmentation)
-* (Up to `-2.0 points`) Implement a simple beam search for evaluation
-* (Up to `-1.0 points`) Implement at least 4 types of audio augmentations
+* (Up to `-2.0 points` if missing) Implement a simple beam search for evaluation
+* (Up to `-1.0 points` if missing) Implement at least 4 types of audio augmentations
 
 
 --------------
