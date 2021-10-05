@@ -1,3 +1,4 @@
 [submodule "hw1_asr/asr_project_template"]
 	path = hw1_asr/asr_project_template
 	url = https://github.com/WrathOfGrapes/asr_project_template.git
+    branch = hw_asr_2021
