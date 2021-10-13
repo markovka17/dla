@@ -22,6 +22,10 @@
 - [__week04__](./week04) Automatic Speech Recognition II
   - Lecture: RNN-T, LM-fusion, BPE
   - Seminar: W&B tutorial, homework barebones overview
+  
+- [__week05__](./week05) Speaker verification and identification
+  - Lecture: Metric Learning: Cosine, Contrastive, Triplet Losses. Angular Softmax. ArcFace
+  - Seminar: ---
 
 <!-- - [__week01__](./week01) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MFCC and etc
