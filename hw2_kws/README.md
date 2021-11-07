@@ -18,7 +18,7 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
       1. define `max_window_length` and restrict you buffer with this parameter.
       Don't forget to refresh the buffer by dropping the first frame and adding `T + 1` frame.
       2. share `hidden state` of GRU between steps
-      3. implement streaming KWS as separeta `class`
+      3. implement streaming KWS as separate `class`
 
       To demonstrate the work in streaming mode, take two random audio tracks of 10-20 seconds and glue them together so that your
       keyword will be between them. Run the model through this glued track and draw how the probability of your keyword changing over time.
@@ -41,7 +41,15 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
      1. The quality of the **base model** is `~0.0025`, so your optimized model should not have a quality less than "~0.0025 * 0.95".
      2. You should try at least 6 settings of model optimization (speed up and/or compression) and visualize it in two ways: Metric-FLOPs and Metric-Memory.
         Either combine it together. You may get inspiration from https://arxiv.org/pdf/1905.11946.pdf.
-    
+
+        Examples of settings:
+          1. Dark Knowledge Distillation
+          2. Dark Knowledge Distillation + fp16
+          3. Attention Distillation + Dark Knowledge Distillation + qint8
+          4. QAT + fp16 + Pruning
+          5. and so on
+
+        Note that, for example, the temperature change during distillation is not a new setting:)    
 
 --------------
 ### Mandatory requirements
