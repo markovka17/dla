@@ -27,6 +27,10 @@
   - Lecture: Metric Learning: Cosine, Contrastive, Triplet Losses. Angular Softmax. ArcFace
   - Seminar: ---
 
+- [__week06__](./week06) Key-word spottind (KWS)
+  - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
+  - Seminar: Speeding Up NNs: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
+
 <!-- - [__week01__](./week01) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MFCC and etc
   - Seminar: Intro in PyTorch, DevOps, R&D in Deep Learning
@@ -38,10 +42,6 @@
 - [__week03__](./week03) Automatic Speech Recognition II
   - Lecture: LM Fusing, RNN Transducer, Schedule Sampling, BPE
   - Seminar: Jasper, QurtzNet, Mixed Precision Training, DDP/DP
-  
-- [__week04__](./week04) Key-word spottind (KWS) and Voice Activity Detection (VAD)
-  - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
-  - Seminar: Speeding Up NNs: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
   
 - [__week05__](./week05) Speaker verification and identification
   - Lecture: Metric Learning: Cosine, Contrastive, Triplet Losses. Angular Softmax. ArcFace
@@ -72,6 +72,9 @@
    -->
 - [__ASR__](./hw1_asr)
   Implementation of ASR model
+
+- [__KWS__](./hw2_kws)
+  Implementation of KWS model
   
 # Contributors & course staff
 Course materials and teaching performed by
