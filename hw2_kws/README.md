@@ -38,7 +38,7 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
         
      
      Important points(!):
-     1. The quality of the **base model** is `~0.002`, so your optimized model should not have a quality less than "~0.002 * 0.9".
+     1. The quality of the **base model** is `~0.002`, so your optimized model should not have a quality less than `~0.002 * 0.9`.
      2. You should try at least 6 settings of model optimization (speed up and/or compression) and visualize it in two ways: Metric-FLOPs and Metric-Memory.
         Either combine it together. You may get inspiration from https://arxiv.org/pdf/1905.11946.pdf.
 
