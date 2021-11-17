@@ -17,8 +17,11 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
       When you implement streaming mode note that you need to:
       1. define `max_window_length` and restrict you buffer with this parameter.
       Don't forget to refresh the buffer by dropping the first frame and adding `T + 1` frame.
-      2. share `hidden state` of GRU between steps
-      3. implement streaming KWS as separate `class`
+      2. [Optionally] you may define `streaming_step_size` and process input not frame by frame, but with `streaming_step_size` step.
+      For example, process `max_window_length` frames, move forward to `streaming_step_size` (not 1) frames and process the last `max_window_length` frames.
+      4. share `hidden state` of GRU between steps
+      5. Pay attention to CNN receptive field
+      6. implement streaming KWS as separate `class`
 
       To demonstrate the work in streaming mode, take two random audio tracks of 10-20 seconds and glue them together so that your
       keyword will be between them. Run the model through this glued track and draw how the probability of your keyword changing over time.
