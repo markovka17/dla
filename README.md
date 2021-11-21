@@ -8,18 +8,18 @@
 # Syllabus
 
 - [__week01__](./week01) Introduction to Digital Signal Processing
-  - Lecture: Introduction
+  - Lecture: Introduction to Course
   - Seminar: Intro in `pytorch`
 
 - [__week02__](./week02) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MelScale, MFCC and etc
   - Seminar: `torchaudio`, spoken digit classification
 
-- [__week03__](./week03) Automatic Speech Recognition I
+- [__week03__](./week03) Automatic Speech Recognition (ASR) I
   - Lecture: Metrics, Attention, CTC, LAS, BeamSearch
   - Seminar: Audio augmentations, CTC decoding, CTC BeamSearch
   
-- [__week04__](./week04) Automatic Speech Recognition II
+- [__week04__](./week04) Automatic Speech Recognition (ASR) II
   - Lecture: RNN-T, LM-fusion, BPE
   - Seminar: W&B tutorial, homework barebones overview
   
@@ -29,7 +29,28 @@
 
 - [__week06__](./week06) Key-word spottind (KWS)
   - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
-  - Seminar: Speeding Up NNs: Tensor Decomposition, Quantization, Pruning, Distilation and Architecture Design
+  - Seminar: Implementation of CNN+Attention+RNN KWS model
+
+- [__week07__](./week07) Text to Speech (TTS)
+  - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
+  - Seminar: TTS in `torchaudio`
+
+- [__week08__](./week08) Neural Vocoders
+  - Lecture: WaveNet, Parallel WaveGAN
+  - Seminar: Implementation of WaveNet
+
+- [__week09__](./week09) Advanced TTS and Vocoders
+<!--   - Lecture: Introduction into generative models: GAN, NF -->
+
+- [__week10__](./week10) Voice Conversion
+
+- [__week11__](./week11) Music Generation
+
+- [__week12__](./week12) Speech Enhancement, Denoising
+
+- [__week13__](./week13) Self-supervision in Audio and Speech
+
+
 
 <!-- - [__week01__](./week01) Introduction to Digital Signal Processing
   - Lecture: Signals, Fourier transform, Spectrograms, MFCC and etc
@@ -75,6 +96,12 @@
 
 - [__KWS__](./hw2_kws)
   Implementation of KWS model
+  
+- [__TTS__](./hw3_tts)
+  Implementation of TTS model
+  
+- [__NV__](./hw4_nv)
+  Implementation of Neural Vocoder Model
   
 # Contributors & course staff
 Course materials and teaching performed by
