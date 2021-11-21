@@ -7,7 +7,7 @@ This homework is aimed at implementing a TTS model based on FastSpeech.
 Extraction of letter lengths in this case will be based on Wav2Vec2 and [CTC-Segmentation](https://arxiv.org/pdf/2007.09127.pdf).
 The model will be trained on the [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) dataset.
 
-The nearby notebook 'aligner' has many useful things:
+The nearby notebook `aligner.ipynb` has many useful things:
 * Featurizer
 * Dataset and Collator
 * Pretrained Vocoder for validation
