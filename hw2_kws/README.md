@@ -107,12 +107,13 @@ profile(Model(), (torch.randn(1, 1, 4), ))  # -> (6.0 MACs, 3.0 parameters)
 
 ### Memory estimation
 ```python
-import os
+import tempfile
 
-def get_size_in_megabytes(model): # https://pytorch.org/tutorials/recipes/recipes/dynamic_quantization.html#look-at-model-size
-    torch.save(model.state_dict(), "temp.p")
-    size=os.path.getsize("temp.p") / 2**20
-    os.remove('temp.p')
+def get_size_in_megabytes(model):
+    # https://pytorch.org/tutorials/recipes/recipes/dynamic_quantization.html#look-at-model-size
+    with tempfile.TemporaryFile() as f:
+        torch.save(model.state_dict(), f)
+        size = f.tell() / 2**20
     return size
 ```
    
