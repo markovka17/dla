@@ -114,11 +114,6 @@ def get_size_in_megabytes(model): # https://pytorch.org/tutorials/recipes/recipe
     size=os.path.getsize("temp.p") / 2**20
     os.remove('temp.p')
     return size
-
-# compare the sizes
-f=print_size_of_model(float_lstm,"fp32")
-q=print_size_of_model(quantized_lstm,"int8")
-print("{0:.2f} times smaller".format(f/q))
 ```
    
 
