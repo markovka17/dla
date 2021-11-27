@@ -48,11 +48,11 @@ So, we don't accept homework if any of the following requirements are not satisf
 
 --------------
 ### Grade
-TBA
-<!---
 ```
-grade = 4 * (`compression rate` / 10) + 4 * (`speed up rate` / 10) 
-  + 2 * `streaming`
-  - days_expired - report_penalty (up to 3.0 points)
+grade = 0.5 * MOS + 0.5 * (quality of code and report)
 ```
---->
+
+To evaluate the MOS, you must add a synthesis of the following sentences to the report:
+* `A defibrillator is a device that gives a high energy electric shock to the heart of someone who is in cardiac arrest`
+* `Massachusetts Institute of Technology may be best known for its math, science and engineering education`
+* `Wasserstein distance or Kantorovich Rubinstein metric is a distance function defined between probability distributions on a given metric space`
