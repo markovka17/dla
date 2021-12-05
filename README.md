@@ -25,7 +25,7 @@
   
 - [__week05__](./week05) Speaker verification and identification
   - Lecture: Metric Learning: Cosine, Contrastive, Triplet Losses. Angular Softmax. ArcFace
-  - Seminar: ---
+  - Seminar: Q&A about homework
 
 - [__week06__](./week06) Key-word spottind (KWS)
   - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
@@ -40,15 +40,21 @@
   - Seminar: Implementation of WaveNet
 
 - [__week09__](./week09) Advanced TTS and Vocoders
-<!--   - Lecture: Introduction into generative models: GAN, NF -->
+  - Lecture: Introduction into generative models. 
+  ParallelWaveNet, WaveGlow, WaveFlow, MelGAN, HiFiGAN, VITS
 
 - [__week10__](./week10) Voice Conversion
+  - Lecture: AutoVC, ConVoice, CycleGAN-VC, StarGAN-VC, Blow, NVC, MOSNet
+  - Seminar: Q&A about homework
 
-- [__week11__](./week11) Music Generation
+- [__week11__](./week11) Self-supervision in Audio and Speech
+  - Lecture: 
+  - Seminar: Reading Group
 
-- [__week12__](./week12) Speech Enhancement, Denoising
+<!-- - [__week11__](./week11) Music Generation -->
 
-- [__week13__](./week13) Self-supervision in Audio and Speech
+<!-- - [__week12__](./week12) Speech Enhancement, Denoising -->
+
 
 
 
