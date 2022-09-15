@@ -9,6 +9,10 @@
 
 # Syllabus
 
+- [__week02__](./week02) Introduction to Digital Signal Processing
+    - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
+    - Seminar: TODO
+
 # Homeworks
 
 # Resources
