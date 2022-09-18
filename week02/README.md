@@ -3,7 +3,7 @@
 * [Lecture slides](https://docs.google.com/presentation/d/1qXq_Tv4XLLXltiYdnrLPGfvzS4VxlZ13Z8h_VXYV4_o/edit?usp=sharing)
 
 ### Practice & homework
-* __Seminar:__ TODO
+* __Seminar:__ ./seminar.ipynb
 
 ### Additional Materials
 * [Waveform for dummies](https://pudding.cool/2018/02/waveforms/)

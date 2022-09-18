@@ -11,7 +11,7 @@
 
 - [__week02__](./week02) Introduction to Digital Signal Processing
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
-    - Seminar: TODO
+    - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
 
 # Homeworks
 
@@ -25,4 +25,6 @@ Course materials and teaching performed by
 
 - [Alexander Markovich](https://t.me/markovka17)
 - [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
+  
+Assistants and contributors
 - [Timofey Smirnov](https://t.me/timothyxp)
