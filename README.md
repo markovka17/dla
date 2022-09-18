@@ -25,3 +25,4 @@ Course materials and teaching performed by
 
 - [Alexander Markovich](https://t.me/markovka17)
 - [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
+- [Timofey Smirnov](https://t.me/timothyxp)
