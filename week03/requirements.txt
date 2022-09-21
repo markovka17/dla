@@ -1,0 +1,5 @@
+pytorch
+torchaudio
+matplotlib
+librosa
+editdistance
