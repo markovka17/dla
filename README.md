@@ -9,6 +9,10 @@
 
 # Syllabus
 
+- [__week01__](./week01) Introduction to Course
+    - Lecture: Introduction to Course
+    - Seminar: Intro in `pytorch`
+
 - [__week02__](./week02) Introduction to Digital Signal Processing
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
     - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
@@ -27,7 +31,8 @@
 
 # Resources
 
-* [Lecture recordings on YouTube (in russian)](https://www.youtube.com/playlist?list=PLEwK9wdS5g0oE9htlwY-WarI5_jeH818j) 
+
+* Lecture recordings on YouTube (in russian): [YouTube](https://youtube.com/playlist?list=PLEwK9wdS5g0oE9htlwY-WarI5_jeH818j)
 
 # Contributors & course staff
 
