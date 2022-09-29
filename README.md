@@ -17,9 +17,20 @@
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
     - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
 
+- [__week03__](./week03) Speech Recognition I
+    - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
+    - Seminar: **_TODO_**
+  
+- [__week04__](./week04) Speech Recognition II
+    - Lecture: RNN-T, language model fusion, Byte-Pair Encoding (BPE)
+    - Seminar: Forced alignment
+
 # Homeworks
 
+- [__hw1_asr__](./hw1_asr) Training speech recognition model
+
 # Resources
+
 
 * Lecture recordings on YouTube (in russian): [YouTube](https://youtube.com/playlist?list=PLEwK9wdS5g0oE9htlwY-WarI5_jeH818j)
 
@@ -30,3 +41,4 @@ Course materials and teaching performed by
 - [Alexander Markovich](https://t.me/markovka17)
 - [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
 - [Timofey Smirnov](https://t.me/timothyxp)
+- [Alexander Mamaev](https://t.me/alxmamaev)
