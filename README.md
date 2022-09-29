@@ -13,11 +13,21 @@
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
     - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
 
+- [__week03__](./week03) Speech Recognition I
+    - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
+    - Seminar: **_TODO_**
+  
+- [__week04__](./week04) Speech Recognition II
+    - Lecture: RNN-T, language model fusion, Byte-Pair Encoding (BPE)
+    - Seminar: Forced alignment
+
 # Homeworks
+
+- [__hw1_asr__](./hw1_asr) Training speech recognition model
 
 # Resources
 
-* Lecture recordings on YouTube (in russian): TBA
+* [Lecture recordings on YouTube (in russian)](https://www.youtube.com/playlist?list=PLEwK9wdS5g0oE9htlwY-WarI5_jeH818j) 
 
 # Contributors & course staff
 
