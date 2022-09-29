@@ -5,4 +5,5 @@
 
 ### Practice & homework
 
-* TODO
+* Augmentation: seminar03_1.ipynb
+* WER, CER, beam search: ./seminar03_2.ipynb
