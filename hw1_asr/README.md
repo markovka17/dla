@@ -37,7 +37,7 @@ We don't accept homework if any of the following requirements are not satisfied:
 
 ```
 grade = 
-    max(11, 
+    min(11, 
       quality_score 
       - (1.0 * days_expired) 
       - implementation_penalty 
@@ -115,7 +115,7 @@ Training a good NN model is a challenging task that is extremely difficult to de
 steps:
 
 1) Overfit your model on a single batch of examples
-2) Train your model in LJ-speech dataset (until you achieve at least 30 WER on LJ-speech test set)
+2) Train your model in LJ-speech dataset (until you achieve at least 30 WER on a custom test set)
 3) Fine-tune your model on Librispeech dataset (until you achieve at least 30 WER on Libirispeech clean test set)
 4) Fine-tune your model on a mix of Librispeech and Common Voice datasets (for extra quality on Librispeech test sets)
 
