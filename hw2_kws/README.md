@@ -2,19 +2,13 @@
 
 ### Task
 Implement streaming KWS, speed up and compress the model 10 times.
-
-This homework don't aimed to implement fancy architecture and write clean and well structured code.
-On the contrary, you will be able to write down all the code in notebooks, but with a lot of comments and graphs :).
-The purpose of the work is to explore various ways to accelerate NNs.
+The goal of the homework is not to implement a fancy architecture and write clean and well-structured code. On the contrary, you will be able to write down all the code in notebooks, but with a lot of comments and graphs :). The goal of the work is to explore various ways to accelerate NNs.
 
 So, you need to take tht **base model** from `seminar.ipynb` and to do the following things:
   1) [Streaming] 
-      This model works differently during training and inferance. During training you have some
-      fixed input and you know that it has a keyword (or not). During the inferance, you read the T frames
-      and make a prediction on them. And the `next step` is to read the `T + 1` frame's,
-      run the neural network just for it, and make a prediction based on it and the `T - 1` of the previous frames.
-     
+      This model works differently during training and inference. During training, you have some fixed input and you know whether it has a keyword (or not). During the inference, you read the T frames and make a prediction on them. And the next step is to read the T + 1 frame, run the neural network just for it, and make a prediction based on it and the T of the previous frames.
       When you implement streaming mode note that you need to:
+      
       1. define `max_window_length` and restrict you buffer with this parameter.
       Don't forget to refresh the buffer by dropping the first frame and adding `T + 1` frame.
       2. [Optionally] you may define `streaming_step_size` and process input not frame by frame, but with `streaming_step_size` step.
@@ -23,17 +17,22 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
       5. Pay attention to CNN receptive field
       6. implement streaming KWS as separate `class`
 
-      *To demonstrate the work in streaming mode:*
+      **To demonstrate the work in streaming mode:**
         1. Take two random audio tracks of 10-20 seconds and glue them together so that your
           keyword will be between them. Run the model through this glued track and draw how the probability of your keyword changing over time.
           The most suituble way to visualize is notebook.
-        2. Implement fair streaming with the `steam.py` file and save the modified code.
+        2. Implement fair streaming with the `stream.py` file and save the modified code.
         We will test it ourselves on different scenarios. (but not very strict :) )
         
-           Important points(!):
-           1. Your model must be in `torch.jit` format so that it can be loaded on any device.
-           2. Your model must contain preprocessing (logMelSpectrogram calculation) and postprocessing (softmax)
-           3. Pay attention to the `frames_per_chunk` parameter, as it can affect the output speed. Your model should trigger almost immediately when someone says the keyword.
+        To launch script (you may add additional arguments if need):
+        ```bash
+        python stream.py
+        ```
+        
+        Important points(!):
+          1. Your model must be in `torch.jit` format so that it can be loaded on any device.
+          2. Your model must contain preprocessing (logMelSpectrogram calculation) and postprocessing (softmax)
+          3. Pay attention to the `frames_per_chunk` parameter, as it can affect the output speed. Your model should trigger almost immediately when someone says the keyword.
      
   2) [Speed up & Compression] 
      You need to speed up and compress **base model** 10 times.
