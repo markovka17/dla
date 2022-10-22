@@ -1,4 +1,3 @@
-import sys
 import logging
 import multiprocessing as mp
 
@@ -9,6 +8,11 @@ logger = logging.getLogger(__file__)
 
 
 def audio_stream(queue: mp.Queue):
+    """
+    Learn more about how to install and use streaming audio here
+    https://pytorch.org/audio/stable/tutorials/streaming_api2_tutorial.html
+    """
+
     streamer = StreamReader(src=":0", format="avfoundation")
     streamer.add_basic_audio_stream(frames_per_chunk=8000, sample_rate=16000)
     stream_iterator = streamer.stream(-1, 1)
