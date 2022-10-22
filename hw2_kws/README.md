@@ -30,9 +30,9 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
         ```
         
         Important points(!):
-          1. Your model must be in `torch.jit` format so that it can be loaded on any device.
-          2. Your model must contain preprocessing (logMelSpectrogram calculation) and postprocessing (softmax)
-          3. Pay attention to the `frames_per_chunk` parameter, as it can affect the output speed. Your model should trigger almost immediately when someone says the keyword.
+        1. Your model must be in `torch.jit` format so that it can be loaded on any device.
+        2. Your model must contain preprocessing (logMelSpectrogram calculation) and postprocessing (softmax)
+        3. Pay attention to the `frames_per_chunk` parameter, as it can affect the output speed. Your model should trigger almost immediately when someone says the keyword.
      
   2) [Speed up & Compression] 
      You need to speed up and compress **base model** 10 times.
