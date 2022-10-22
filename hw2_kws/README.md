@@ -23,9 +23,17 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
       5. Pay attention to CNN receptive field
       6. implement streaming KWS as separate `class`
 
-      To demonstrate the work in streaming mode, take two random audio tracks of 10-20 seconds and glue them together so that your
-      keyword will be between them. Run the model through this glued track and draw how the probability of your keyword changing over time.
-      The most suituble way to visualize is notebook.
+      *To demonstrate the work in streaming mode:*
+        1. Take two random audio tracks of 10-20 seconds and glue them together so that your
+          keyword will be between them. Run the model through this glued track and draw how the probability of your keyword changing over time.
+          The most suituble way to visualize is notebook.
+        2. Implement fair streaming with the `steam.py` file and save the modified code.
+        We will test it ourselves on different scenarios. (but not very strict :) )
+        
+           Important points(!):
+           1. Your model must be in `torch.jit` format so that it can be loaded on any device.
+           2. Your model must contain preprocessing (logMelSpectrogram calculation) and postprocessing (softmax)
+           3. Pay attention to the `frames_per_chunk` parameter, as it can affect the output speed. Your model should trigger almost immediately when someone says the keyword.
      
   2) [Speed up & Compression] 
      You need to speed up and compress **base model** 10 times.
@@ -42,7 +50,7 @@ So, you need to take tht **base model** from `seminar.ipynb` and to do the follo
      
      Important points(!):
      1. The quality of the **base model** is `~5e-5`, so your optimized model should not have a quality less than `~5e-5 * 1.1`.
-     2. You should try at least 6 settings of model optimization (speed up and/or compression) and visualize it in two ways: Metric-FLOPs and Metric-Memory.
+     2. You should try at least 3 settings of model optimization (speed up and/or compression) and visualize it in two ways: Metric-FLOPs and Metric-Memory.
         Either combine it together. You may get inspiration from https://arxiv.org/pdf/1905.11946.pdf.
 
         Examples of settings:
@@ -121,7 +129,7 @@ def get_size_in_megabytes(model):
 --------------
 ### Grade
 ```
-grade = 4 * (`compression rate` / 10) + 4 * (`speed up rate` / 10) 
-  + 2 * `streaming`
+grade = 3.5 * (`compression rate` / 10) + 3.5 * (`speed up rate` / 10) 
+  + 3 * `streaming`
   - days_expired - report_penalty (up to 3.0 points)
 ```
