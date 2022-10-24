@@ -1,16 +1,17 @@
 # Week 05
 
-# 
 
-### Slides
-* [Metric learning](https://docs.google.com/presentation/d/1AermYOlvgcK_HgK7iotapyf9JX0sciJH0fRY0osufNM/edit?usp=sharing)
-    * Metric learning
-    * Speaker recognition
-    * Equal error rate metric
-    * Cosine loss, Contrastive loss and triplet loss
-    * Angular softmax
-    * Additive Angular Margin Loss
-    * Advanced triplet sampling techinques
+* [Slides](https://docs.google.com/presentation/d/1AermYOlvgcK_HgK7iotapyf9JX0sciJH0fRY0osufNM/edit?usp=sharing)
+* [Recording on YouTube (in Russian)](https://youtu.be/1f_ohutASwM)
+
+### Topics
+ * Metric learning
+ * Speaker recognition
+ * Equal error rate metric
+ * Cosine loss, Contrastive loss and triplet loss
+ * Angular softmax
+ * Additive Angular Margin Loss
+ * Advanced triplet sampling techinques
   
 ### Practice & homework
 TODO: add seminar notebook here
@@ -18,7 +19,7 @@ TODO: add seminar notebook here
 ### Additional Materials
 *All links are provided on the last slide of the lecture*
 
-0) [Speaker Recognition Based on Deep Learning: An Overview](https://arxiv.org/pdf/2012.00931.pdf)
+0) Speaker Recognition Based on Deep Learning: An Overview
 1) FaceNet: A Unified Embedding for Face Recognition and Clustering
 2) Deep Metric Learning: A Survey
 3) VoxCeleb2: Deep Speaker Recognition
