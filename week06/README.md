@@ -1,7 +1,8 @@
 # Week 06
 
 * [Lecture slides](https://docs.google.com/presentation/d/1OoL2XYuBId9XVMXpoKzzDhOYUhQ6j-HWb1qYuQLoxJ8/edit?usp=sharing)
-* Videos (TBA)
+* [Recording on YouTube (in Russian)](https://youtu.be/mNkwO8f3Edk)
+
 
 ### Keywork Spoting Models
 * [DNN based KWS](https://static.googleusercontent.com/media/research.google.com/ru//pubs/archive/42537.pdf), [CNN based KWS](https://www.dropbox.com/s/peymtgllizb0ysq/KWS_CNN.pdf?dl=0)
