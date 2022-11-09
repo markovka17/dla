@@ -68,12 +68,12 @@ Configurations:
 * audio with +20/-20% for pitch,speed and energy together
 
 To give you a rough idea in advance of how we are going to evaluate the scale is approximately as follows:
-5: Words can be heard perfectly, interference can be attributed to vocoder artifacts
-4: There is some obvious noise, but all the words are clear and you do not have to listen to them to understand
-3: Most words are understandable, but some words are indistinguishable
-2: Very noisy audio, but some words are understandable
-1: At least it squeaks
-0: Vacuum cleaner
+   * 5: Words can be heard perfectly, interference can be attributed to vocoder artifacts
+   * 4: There is some obvious noise, but all the words are clear and you do not have to listen to them to understand
+   * 3: Most words are understandable, but some words are indistinguishable
+   * 2: Very noisy audio, but some words are understandable
+   * 1: At least it squeaks
+   * 0: Vacuum cleaner
 
 Bonus:
 * (Up to +1.5) You can use other alignments, for example [MFA](https://montreal-forced-aligner.readthedocs.io/en/latest/) 
