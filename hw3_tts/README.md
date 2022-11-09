@@ -1,6 +1,6 @@
 # Homework 3 (TTS)
 
-### Task
+## Task
 Implement [FastSpeech2](https://arxiv.org/pdf/2006.04558.pdf).
 
 This homework is aimed at implementing a TTS model based on FastSpeech2.
@@ -30,9 +30,10 @@ Important points(!):
   * Pre LayerNorm in `Transormer` for to fast convergence
   * Pitch and Energy normalization
 
+Note that since your work is essentially a reimplementation of the paper, you **should** describe all your steps in detail. For example, how you extract pitch/energy/duration, how you normalize/process them, how you update the base model (from the workshop), and so on. The work done should be visible first in the report, and then in the code.
 
 --------------
-### Mandatory requirements
+## Mandatory requirements
 In general, the format of the current homework follows that of the first homework assignment (ASR).
 You must organize the repository as in the first homework assignment, which is to break up the code into modules and follow the code style.
 
@@ -48,9 +49,9 @@ So, we don't accept homework if any of the following requirements are not satisf
   * Attach training logs to show how fast did you network train
   * What worked and what didn't work?
   * What were the major challenges?
-
+  
 --------------
-### Grade
+## Grade
 ```
 grade = 0.5 * MOS + 0.5 * (quality of code and report) + bonus
 ```
