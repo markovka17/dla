@@ -4,7 +4,7 @@
 
 - Lecture and seminar materials for each week are in ./week* folders, see README.md for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
-- The current version of the course is conducted in autumn 2022 at the [CS Faculty](https://cs.hse.ru/en/)
+- The current version of the course is conducted in autumn 2023 at the [CS Faculty](https://cs.hse.ru/en/)
   of [HSE](https://www.hse.ru/en/)
 
 # Syllabus
@@ -12,7 +12,7 @@
 - [__week01__](./week01) Introduction to Course
     - Lecture: Introduction to Course
     - Seminar: Intro in `pytorch`
-
+<!-- 
 - [__week02__](./week02) Introduction to Digital Signal Processing
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
     - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
@@ -50,25 +50,25 @@
 
 - [__week11__](./week11) Self-supervision in Audio and Speech
 
-- [__week12__](./week12) Invited talks
+- [__week12__](./week12) Invited talks -->
 
 # Homeworks
-
+<!-- 
 - [__ASR__](./hw1_asr) Training speech recognition model
 - [__KWS__](./hw2_kws) Implementation of KWS model
 - [__TTS__](./hw3_tts) Implementation of TTS model
-- [__NV__](./hw4_nv) Implementation of Neural Vocoder Model
+- [__NV__](./hw4_nv) Implementation of Neural Vocoder Model -->
 
 # Resources
 
-
-* Lecture recordings on YouTube (in russian): [YouTube](https://youtube.com/playlist?list=PLEwK9wdS5g0oE9htlwY-WarI5_jeH818j)
+* Lecture recordings on YouTube (in russian): **TBA**
 
 # Contributors & course staff
 
-Course materials and teaching performed by
+Course materials and teaching (in different years) were delivered by:
 
 - [Alexander Markovich](https://t.me/markovka17)
 - [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
 - [Timofey Smirnov](https://t.me/timothyxp)
 - [Alexander Mamaev](https://t.me/alxmamaev)
+s
