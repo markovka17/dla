@@ -71,4 +71,4 @@ Course materials and teaching (in different years) were delivered by:
 - [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
 - [Timofey Smirnov](https://t.me/timothyxp)
 - [Alexander Mamaev](https://t.me/alxmamaev)
-s
+- **TBA**
