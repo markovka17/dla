@@ -1,7 +1,7 @@
 # Homework 1 (ASR)
 
 
-See the [template](https://github.com/WrathOfGrapes/asr_project_template/tree/1ea4e12de90ccedfd4fda4693e0b2ae1e220d52d/hw_asr)
+See the [template](https://github.com/WrathOfGrapes/asr_project_template/tree/1ea4e12de90ccedfd4fda4693e0b2ae1e220d52d)
 
 ### Task
 
