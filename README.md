@@ -12,11 +12,12 @@
 - [__week01__](./week01) Introduction to Course
     - Lecture: Introduction to Course
     - Seminar: Intro in `pytorch`
-<!-- 
+ 
 - [__week02__](./week02) Introduction to Digital Signal Processing
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
     - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
-
+      
+<!--
 - [__week03__](./week03) Speech Recognition I
     - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
     - Seminar: Audio Augmentations, Beam Search
@@ -55,20 +56,24 @@
 # Homeworks
 <!-- 
 - [__ASR__](./hw1_asr) Training speech recognition model
-- [__KWS__](./hw2_kws) Implementation of KWS model
-- [__TTS__](./hw3_tts) Implementation of TTS model
-- [__NV__](./hw4_nv) Implementation of Neural Vocoder Model -->
+- [__KWS__](./hw2_ss) TBD
+- [__TTS__](./hw3_tts) Implementation of TTS model (Part 1)
+- [__TTS__](./hw4_tts) Implementation of TTS model (Part 2)
+- [__NV__](./hw5_aspoof) Implementation of Antispoofing Model -->
 
 # Resources
 
-* Lecture recordings on YouTube (in russian): **TBA**
+* [Lecture recordings on YouTube (in russian)](https://youtube.com/playlist?list=PLYG3WHDP5CWV_DRs9SZ8YiA3agJCX1sIr&si=7eegv6XO75ZCF2Hc)
 
 # Contributors & course staff
 
 Course materials and teaching (in different years) were delivered by:
-
+- [Grigory Fedorov](https://t.me/fedorovgv)
+- [Petr Grinberg](https://t.me/Blinorot)
+- [Maxim Kaledin](https://t.me/XuMuK_MK)
+- [Ilya Lewin](https://t.me/levensons)
 - [Alexander Markovich](https://t.me/markovka17)
-- [Daniil Ivanov](https://t.me/the_longest_id_in_the_world)
-- [Timofey Smirnov](https://t.me/timothyxp)
-- [Alexander Mamaev](https://t.me/alxmamaev)
-- **TBA**
+- [Daniil Ivanov(previously)](https://t.me/the_longest_id_in_the_world)
+- [Timofey Smirnov(previously)](https://t.me/timothyxp)
+- [Alexander Mamaev(previously)](https://t.me/alxmamaev)
+
