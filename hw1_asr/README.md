@@ -18,7 +18,8 @@ We don't accept homework if any of the following requirements are not satisfied:
 * All the necessary packages should be mentioned in `./requirements.txt` or be installed in dockerfile
 * All necessary resources (such as model checkpoints, LMs, and logs) should be downloadable with a script. Mention the
   script (or lines of code) in the `README.md`
-* You should implement all functions in `test.py` so that we can check your assignment
+* Unit tests (see template description) should work without errors
+* You should implement all functions in `test.py` (for evaluation) so that we can check your assignment
 * Basically, your `test.py` and `train.py` scripts should run without issues after running all commands in your
   installation guide.
 * You must provide the logs for the training of your final model from the start of the training. We heavly recommend you
@@ -94,7 +95,7 @@ We also require that you fulfill the following requirements. Not fulfilling them
 * (`+1.0`) BPE instead of characters. You can use SentencePiece, HuggingFace, or YouTokenToMe.
 * (up to `+3.0`) Train a LAS/RNN-T model (instead CTC / with CTC). Don't forget to log your attention matrices. You can
   skip beam-search or implement it for an extra *+1.0*
-* (`+??`) More tech bonuses to be announced.
+* (`+1.0`) Replace `ConfigParser` class and JSON configs with [Hydra](https://hydra.cc/docs/intro/) and YAML. You should utilize Hydra features and use them instead of methods in `ConfigParser`. The full points are given only if **all** logic of `ConfigParser` is replaced with Hydra.
 
 --------------
 
