@@ -55,6 +55,7 @@
 
 # Homeworks
 - [__ASR__](./hw1_asr) Training speech recognition model
+- [__SS__](./hw2_ss) Training speech separation model
 <!-- 
 - [__KWS__](./hw2_ss) TBD
 - [__TTS__](./hw3_tts) Implementation of TTS model (Part 1)
