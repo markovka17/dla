@@ -21,21 +21,20 @@
     - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
     - Seminar: Audio Augmentations, Beam Search, Homework discussion
 
-<!--
-  
+
 - [__week04__](./week04) Speech Recognition II
     - Lecture: RNN-T, language model fusion, Byte-Pair Encoding (BPE)
-    - Seminar: Forced Alignment
+    - Seminar: --
     
-- [__week05__](./week05) Speaker verification and identification
-  - Lecture: Metric Learning: Cosine, Contrastive, Triplet Losses. Angular Softmax. ArcFace
-  - Seminar: Generalized End2End Loss for Speaker Verification
+- [__week05__](./week05) Source Separation I
+  - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+
+  - Seminar: Metrics, Dataset of Mixtures and some tech stuff
   
-- [__week06__](./week06) Key-word spottind
-  - Lecture: (DNN, CNN, RNN+Attention) based KWS, SVDF, Orthogonality Regularization and other Tricks
-  - Seminar: CNN+Attention+RNN KWS model
+- [__week06__](./week06) Source Separation II
+  - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
+  - Seminar: TBD
   
-- [__week07__](./week07) Text to Speech (TTS)
+<!-- - [__week07__](./week07) Text to Speech (TTS)
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
   - Seminar: FastSpeech I
   
