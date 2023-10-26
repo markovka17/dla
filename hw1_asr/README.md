@@ -80,6 +80,7 @@ We also require that you fulfill the following requirements. Not fulfilling them
 | 6.0 | LibriSpeech: test-clean | -- | 30 | It's quite readable |
 | 7.0 | LibriSpeech: test-clean | -- | 20 | Occasional mistakes  |
 | 8.0 | LibriSpeech: **test-other** | -- | 30 | Your network can handle somewhat noisy audio. |
+| 8.5 | LibriSpeech: **test-other** | -- | 25 | Your network can handle somewhat noisy audio but it is still just close enough. |
 | 9.0 | LibriSpeech: **test-other** | -- | 20 | Somewhat suitable for practical applications. |
 | 10.0 | LibriSpeech: **test-other** | -- | 10 | Technically better than a human. Well done! |
 
