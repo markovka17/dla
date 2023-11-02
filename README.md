@@ -32,7 +32,7 @@
   
 - [__week06__](./week06) Source Separation II
   - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
-  - Seminar: TBD
+  - Seminar: WienerFilter, SincFilter and DEMUCS
   
 <!-- - [__week07__](./week07) Text to Speech (TTS)
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
