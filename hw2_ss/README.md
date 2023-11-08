@@ -47,16 +47,20 @@ So, we don't accept homework if any of the following requirements are not satisf
 grade = 0.7 * SiSDRGrade + 0.3 * (quality of code and report) + bonus
 ```
 
-SISDRGrade is computed with respect to the table on our own loudness-normalized to -20LUFS SNR0 mix of similar speech dataset:
+SISDRGrade is computed with respect to the table on our own loudness-normalized to -20LUFS SNR0 mix of similar speech dataset NEW!!!:
 | SI-SDR      | PESQ        | Grade |
 | ----------- | ----------- |-------|
-| <5          | <2          |  0    |
-| >5          | >2.0        |  3    |
-| >7          | >2.4        |  4    |
-| >8.5        | >2.5        |  5    |
-| >11.5       | >2.6        |  6    |
-| >13         | >2.7        |  7    |
-| >14         | >2.7        |  8    |
+| <5          | <1.1          |  0    |
+| >5          | >1.1        |  3    |
+| >7          | >1.2        |  4    |
+| >8.5        | >1.2        |  5    |
+| >10.5       | >1.5        |  6    |
+| >11.5         | >1.8        |  7    |
+| >12.5         | >1.8        |  8    |
+
+NEW!!! To measure SI-SDR, use [torchmetrics.audio.SI-SDR](https://torchmetrics.readthedocs.io/en/stable/audio/scale_invariant_signal_distortion_ratio.html) and [torchmetrics.audio.pesq](https://torchmetrics.readthedocs.io/en/stable/audio/perceptual_evaluation_speech_quality.html) with "wb" and 16kHz sampling rate for PESQ.
+
+Similarly to ASR, your test.py must have an argument -t that replaces dataset in config to CustomDirDataset class from your src/datasets/. Previously, this class read two dirs (audio, transcriptions) with Utterance_id.wav and Utterance_id.txt. Now, your class should work with 3 dirs: mix (for mixes), refs (for references) and targets (for targets). Files in each dir are named in the following way ID-mixed.wav, ID-ref.wav, ID-target.wav for mix, ref and target respectively.
 
 Insight1: With original VoiceFilter you could get SI-SDR 7-9 at most and it requires a lot of time to train. There are technical tricks to discover. 
 
@@ -68,10 +72,13 @@ Insight4: Larger batch may be needed for SpEx+ to train smoothly (4-5 of 3sec au
 
 Bonuses:
 +0.7 If SpEx+ is implemented and you used the classification head 
+
 +0.3 for comparison of Mel- and native-scale spectrograms in VoiceFilter
+
 +0.5 for implementing SI-SNR loss in VoiceFilter
 
 +0.5 For providing validation results on the noised dataset of 1000 mixes (mixing WHAM and WHAMR! tracks with the two speakers from LibriSpeech).
+
 +0.5 For trying to use another reference encoder (for instance, wav2vec with modifications) and providing comparison with your original baseline model
 
 +0.5 for measuring the quality of your model in the case of audio stream with segmentation, aggregation and separate chunk procesing.
