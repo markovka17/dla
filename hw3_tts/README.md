@@ -11,6 +11,8 @@ In seminar notebook from week07 you can find FastSpeech1 implementation with som
 You can use this implementation as a basis and implement FastSpeech2 based on it.
 
 Important points(!):
+
+* Not allowed to use blocks from pytorch: nn.Transformer/nn.TransformerEncoder/nn.TransformerEncoderLayer
   
 * If you are unfamiliar with the Transformers, read the following papers:
     * [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
