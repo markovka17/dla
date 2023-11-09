@@ -34,14 +34,15 @@
   - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
   - Seminar: WienerFilter, SincFilter and DEMUCS
   
-<!-- - [__week07__](./week07) Text to Speech (TTS)
+- [__week07__](./week07) Text to Speech (TTS)
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
   - Seminar: FastSpeech I
   
 - [__week08__](./week08) Neural Vocoders
-  - Lecture: WaveNet, Parallel WaveGAN
+  - Lecture: WaveNet, Parallel WaveGAN, WaveGlow, MelGAN, HiFiGAN
   - Seminar: WaveNet
 
+<!--
 - [__week09__](./week09) Advanced TTS and Vocoders
   - Lecture: Introduction into generative models. ParallelWaveNet, WaveGlow, WaveFlow, MelGAN, HiFiGAN
   
@@ -56,9 +57,9 @@
 # Homeworks
 - [__ASR__](./hw1_asr) Training speech recognition model
 - [__SS__](./hw2_ss) Training speech separation model
+- [__TTS__](./hw3_tts) Implementation of TTS model (Part 1)
 <!-- 
 - [__KWS__](./hw2_ss) TBD
-- [__TTS__](./hw3_tts) Implementation of TTS model (Part 1)
 - [__TTS__](./hw4_tts) Implementation of TTS model (Part 2)
 - [__NV__](./hw5_aspoof) Implementation of Antispoofing Model -->
 
