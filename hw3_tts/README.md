@@ -78,3 +78,4 @@ Bonus:
 or find preprocessed ones, don't forget that then you will most likely have to change tokenizer pipeline
 * (Up to +2) You can add some more regulators for your variance adaptor and regulate more variances. 
 For example you can try extract emotions and add it as regulator
+* (Up to +1) Hydra bonus as in ASR. Only if you have not done it in previous HWs.
