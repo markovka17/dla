@@ -42,14 +42,16 @@
   - Lecture: WaveNet, Parallel WaveGAN, WaveGlow, MelGAN, HiFiGAN
   - Seminar: WaveNet
 
-<!--
-- [__week09__](./week09) Advanced TTS and Vocoders
-  - Lecture: Introduction into generative models. ParallelWaveNet, WaveGlow, WaveFlow, MelGAN, HiFiGAN
-  
-- [__week10__](./week10) Voice Conversion
-  - Lecture: Disentanglement & Direct based methods, 
-  - Seminar: Homework Q&A
 
+- [__week09__](./week09) Voice Conversion
+  - Lecture: Disentanglement & Direct based methods
+  - Seminar: TorchScript, HiFi-VC
+  
+- [__week10__](./week10) Voice Biometry I
+  - Lecture: Introduction. CMs for sythesized speech detection (LCNN, RawNet2, AASIST). GNNs
+  - Seminar: ASVspoof, Sinc-layer, GNN
+
+<!--
 - [__week11__](./week11) Self-supervision in Audio and Speech
 
 - [__week12__](./week12) Invited talks -->
@@ -59,9 +61,8 @@
 - [__SS__](./hw2_ss) Training speech separation model
 - [__TTS__](./hw3_tts) Implementation of TTS model (Part 1)
 <!-- 
-- [__KWS__](./hw2_ss) TBD
-- [__TTS__](./hw4_tts) Implementation of TTS model (Part 2)
-- [__NV__](./hw5_aspoof) Implementation of Antispoofing Model -->
+- [__TTS2__](./hw4_tts2) Implementation of TTS model (Part 2)
+- [__AS__](./hw5_aspoof) Implementation of Anti-spoofing Model -->
 
 # Resources
 
