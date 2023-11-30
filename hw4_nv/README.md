@@ -111,3 +111,5 @@ To evaluate the MOS, you must add a synthesis of the following sentences to the 
 * `Wasserstein distance or Kantorovich Rubinstein metric is a distance function defined between probability distributions on a given metric space`
 
 The corresponding `MelSpectograms` will be announced later.
+
+**Bonus**: Hydra bonus if not used before

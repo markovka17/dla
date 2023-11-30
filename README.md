@@ -51,18 +51,23 @@
   - Lecture: Introduction. CMs for sythesized speech detection (LCNN, RawNet2, AASIST). GNNs
   - Seminar: ASVspoof, Sinc-layer, GNN
 
-<!--
-- [__week11__](./week11) Self-supervision in Audio and Speech
+- [__week11__](./week11) Voice Biometry II
+  - Lecture: CMs for replay attack detection. ASV systems. SASV systems. Streaming
+  - Seminar: -
 
-- [__week12__](./week12) Invited talks -->
+<!--
+- [__week12__](./week12) TTS-3
+
+- [__week13__](./week13) Music Generation
+
+- [__week14__](./week14) Invited talks -->
 
 # Homeworks
 - [__ASR__](./hw1_asr) Training speech recognition model
 - [__SS__](./hw2_ss) Training speech separation model
-- [__TTS__](./hw3_tts) Implementation of TTS model (Part 1)
-<!-- 
-- [__TTS2__](./hw4_tts2) Implementation of TTS model (Part 2)
-- [__AS__](./hw5_aspoof) Implementation of Anti-spoofing Model -->
+- [__TTS__](./hw3_tts) Implementation of TTS model (Part 1, FastSpeech)
+- [__NV__](./hw4_nv) Implementation of TTS model (Part 2, Vocoder)
+- [__AS__](./hw5_as) Implementation of Anti-spoofing Model
 
 # Resources
 
