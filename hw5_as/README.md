@@ -135,7 +135,7 @@ Perfomance metrics (must be calculated on the evalutation set of the LA partitio
 
 [Code](./calculate_eer.py) for metrics is provided in this repo (see `compute_eer` function). You should provide metrics in your report and achieve the following performance:
 
-* EER for $P = 10$ ($P=0$ otherwise):
+* EER for $P = \text{Maximum grade for the chosen CM}$ ($P=0$ otherwise):
     * $< 5\\%$ for STFT-LCNN.
     * $< 5.3\\%$ for LFCC-LCNN.
     * $< 5.8\\%$ for S1-RawNet2.
