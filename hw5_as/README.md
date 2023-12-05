@@ -95,7 +95,7 @@ You should provide `test.py` for your final solution.
 
 * Choose any utterance you like from the internet and run your model on it. 
 
-* Run you model on three utterances, provided in this repository (**TO BE ANNOUNCED**). 
+* Run you model on three utterances, provided in this [kaggle dataset](https://www.kaggle.com/datasets/blinorot/dla-hw5-test-audio) by teachers. 
 
 Provide probabilitiess of audio beeing spoofed, obtained from your model. Listen the utterances and say if you think they are real or spoofed. Compare your thoughts with model predictions and describe. Does your model work good on these utterances? Explain.
 
@@ -152,6 +152,8 @@ Perfomance metrics (must be calculated on the evalutation set of the LA partitio
     | $< 2.5\%$ | 10 |
 
 **Note**: requested EERs are much higher than the ones described in the paper to save your time.
+
+**Note 2**: for the ablation experiments (LCNN and RawNet) you do not have to get EER lower than written above. This threshold is only for the primary system, meaning that is mandatory to get below threshold only in one of your experiments (one per model).
 
 **Bonus**: You can get up to $2$ bonus points if you solve tasks for at least two different CMs.
 
