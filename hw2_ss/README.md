@@ -50,13 +50,14 @@ grade = 0.7 * SiSDRGrade + 0.3 * (quality of code and report) + bonus
 SISDRGrade is computed with respect to the table on our own loudness-normalized to -20LUFS SNR0 mix of similar speech dataset NEW!!!:
 | SI-SDR      | PESQ        | Grade |
 | ----------- | ----------- |-------|
-| <5          | <1.1          |  0    |
-| >5          | >1.1        |  3    |
-| >7          | >1.2        |  4    |
-| >8.5        | >1.2        |  5    |
-| >10.5       | >1.5        |  6    |
-| >11.5         | >1.8        |  7    |
-| >12.5         | >1.8        |  8    |
+| <2          | <1          |  0    |
+| >5          | >1.2        |  2    |
+| >5.5          | >1.2        |  3    |
+| >6        | >1.2        |  4    |
+| >8       | >1.4        |  6    |
+| >9.5         | >1.4        |  7    |
+| >10         | >1.6        |  8    |
+| >10.3         | >1.8        |  9    |
 
 NEW!!! To measure SI-SDR, use [torchmetrics.audio.SI-SDR](https://torchmetrics.readthedocs.io/en/stable/audio/scale_invariant_signal_distortion_ratio.html) and [torchmetrics.audio.pesq](https://torchmetrics.readthedocs.io/en/stable/audio/perceptual_evaluation_speech_quality.html) with "wb" and 16kHz sampling rate for PESQ.
 
