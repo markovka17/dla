@@ -55,12 +55,19 @@
   - Lecture: CMs for replay attack detection. ASV systems. SASV systems. Streaming
   - Seminar: -
 
-<!--
-- [__week12__](./week12) TTS-3
+- [__week12__](./week12) Diffusion Models for Audio Generation
 
+  - Lecture, part 1: Introduction to diffusion models from two perspectives: score matching and latent probabilistic models. 
+  - Lecture, part2: Diffusion models for audio synthesis and tts. WaveGrad, DiffWave, GradTTS
+
+- __bonus week__
+
+  - Self-Supervised models in ASR
+
+<!--
 - [__week13__](./week13) Music Generation
 
-- [__week14__](./week14) Invited talks -->
+-->
 
 # Homeworks
 - [__ASR__](./hw1_asr) Training speech recognition model
@@ -76,11 +83,12 @@
 # Contributors & course staff
 
 Course materials and teaching (in different years) were delivered by:
-- [Grigory Fedorov](https://t.me/fedorovgv)
-- [Petr Grinberg](https://t.me/Blinorot)
 - [Maxim Kaledin](https://t.me/XuMuK_MK)
-- [Ilya Lewin](https://t.me/levensons)
 - [Alexander Markovich](https://t.me/markovka17)
+- [Petr Grinberg](https://t.me/Blinorot)
+- [Aibek Alanov](https://t.me/aibrain)
+- [Grigory Fedorov](https://t.me/fedorovgv)
+- [Ilya Lewin](https://t.me/levensons)
 - [Daniil Ivanov(previously)](https://t.me/the_longest_id_in_the_world)
 - [Timofey Smirnov(previously)](https://t.me/timothyxp)
 - [Alexander Mamaev(previously)](https://t.me/alxmamaev)
