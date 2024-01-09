@@ -60,7 +60,7 @@
   - Lecture, part 1: Introduction to diffusion models from two perspectives: score matching and latent probabilistic models. 
   - Lecture, part2: Diffusion models for audio synthesis and tts. WaveGrad, DiffWave, GradTTS
 
-- __bonus week__
+- __bonus week__ Guest lecture
 
   - Self-Supervised models in ASR
 
