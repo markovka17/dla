@@ -1,11 +1,11 @@
 # Week 01
 
-* [Lecture slides](https://docs.google.com/presentation/d/12x2SC8Fkm8H0J_dxGqELEGof5vtJPA0_Nel1-x3x5Bs/edit?usp=sharing)
-* [Recording on YouTube (in Russian)](https://youtu.be/mbR66x-jhco?si=hs3uWuHA5J3gM8JI)
+* [Lecture slides](TBA)
+* [Recording on YouTube (in Russian)](TBA)
 
 ### Practice & homework
 
-* __Seminar:__ [seminar.ipynb](./seminar.ipynb)
+* __Seminar:__ [seminar.ipynb](TBA)
 
 <!-- ### Additional Materials -->
 <!-- 

@@ -2,17 +2,20 @@
 
 # Deep Learning for Audio (DLA)
 
-- Lecture and seminar materials for each week are in ./week* folders, see README.md for materials and instructions
+- Lecture and seminar materials for each week are in `./week*` folders, see `README.md` for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
-- The current version of the course is conducted in autumn 2023 at the [CS Faculty](https://cs.hse.ru/en/)
-  of [HSE](https://www.hse.ru/en/)
+- The current version of the course is conducted in **autumn 2024** at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/).
+
+For previous years versions, see [Past Versions](#past-versions) section.
+
 
 # Syllabus
 
 - [__week01__](./week01) Introduction to Course
     - Lecture: Introduction to Course
-    - Seminar: Intro in `pytorch`
+    - Seminar: TBD
  
+<!--
 - [__week02__](./week02) Introduction to Digital Signal Processing
     - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
     - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
@@ -64,32 +67,42 @@
 
   - Self-Supervised models in ASR
 
-<!--
 - [__week13__](./week13) Music Generation
 
 -->
 
-# Homeworks
+# Homeworks and Projects
+
+TBD
+
+<!--
 - [__ASR__](./hw1_asr) Training speech recognition model
 - [__SS__](./hw2_ss) Training speech separation model
 - [__TTS__](./hw3_tts) Implementation of TTS model (Part 1, FastSpeech)
 - [__NV__](./hw4_nv) Implementation of TTS model (Part 2, Vocoder)
 - [__AS__](./hw5_as) Implementation of Anti-spoofing Model
+-->
 
 # Resources
 
-* [Lecture recordings on YouTube (in russian)](https://youtube.com/playlist?list=PLYG3WHDP5CWV_DRs9SZ8YiA3agJCX1sIr&si=7eegv6XO75ZCF2Hc)
+* [Lecture recordings on YouTube (in russian)](TBA)
 
 # Contributors & course staff
 
 Course materials and teaching (in different years) were delivered by:
 - [Maxim Kaledin](https://t.me/XuMuK_MK)
-- [Alexander Markovich](https://t.me/markovka17)
 - [Petr Grinberg](https://t.me/Blinorot)
-- [Aibek Alanov](https://t.me/aibrain)
 - [Grigory Fedorov](https://t.me/fedorovgv)
-- [Ilya Lewin](https://t.me/levensons)
-- [Daniil Ivanov(previously)](https://t.me/the_longest_id_in_the_world)
-- [Timofey Smirnov(previously)](https://t.me/timothyxp)
-- [Alexander Mamaev(previously)](https://t.me/alxmamaev)
+- [Aibek Alanov](https://t.me/aibrain)
+- [Alexander Markovich (previously)](https://t.me/markovka17)
+- [Daniil Ivanov (previously)](https://t.me/the_longest_id_in_the_world)
+- [Ilya Lewin (previously)](https://t.me/levensons)
+- [Timofey Smirnov (previously)](https://t.me/timothyxp)
+- [Alexander Mamaev (previously)](https://t.me/alxmamaev)
 
+# Past Versions
+
+- [2023](https://github.com/markovka17/dla/tree/2023)
+- [2022](https://github.com/markovka17/dla/tree/2022)
+- [2021](https://github.com/markovka17/dla/tree/2021)
+- [2020](https://github.com/markovka17/dla/tree/2020)
