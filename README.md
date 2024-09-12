@@ -15,11 +15,11 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Seminar: Experiment tracking, `Hydra`, `Git`, `VS code`
   - Self-Study: Introduction to `PyTorch`
 
-<!--
-- [__week02__](./week02) Introduction to Digital Signal Processing
-    - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
-    - Seminar: DSP in practice, spectrogram creation, training a model for audio MNIST
 
+- [**week02**](./week02) Introduction to Digital Signal Processing
+    - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
+    - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
+<!--
 - [__week03__](./week03) Speech Recognition I
     - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
     - Seminar: Audio Augmentations, Beam Search, Homework discussion
