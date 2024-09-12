@@ -1,6 +1,6 @@
 # Week 02
 
-* [Lecture slides](https://docs.google.com/presentation/d/1EYie_PIW9TJKafSg7WWKshVLusAqECIzsErBoFLmuJw/edit#slide=id.gf22f7b1221_1_122)
+* [Lecture slides](https://docs.google.com/presentation/d/1EYie_PIW9TJKafSg7WWKshVLusAqECIzsErBoFLmuJw/edit#slide=id.p)
 * [Recording on YouTube (in Russian)](toappear) TBA
 
 ### Practice & homework
