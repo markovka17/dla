@@ -11,63 +11,73 @@ For previous years versions, see [Past Versions](#past-versions) section.
 # Syllabus
 
 - [**week01**](./week01) Introduction to Course
+
   - Lecture: Introduction to Course
   - Seminar: Experiment tracking, `Hydra`, `Git`, `VS code`
   - Self-Study: Introduction to `PyTorch`
 
-
 - [**week02**](./week02) Introduction to Digital Signal Processing
-    - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
-    - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
+
+  - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
+  - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
+
 <!--
-- [__week03__](./week03) Speech Recognition I
-    - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
-    - Seminar: Audio Augmentations, Beam Search, Homework discussion
 
+- [**week03**](./week03) Speech Recognition I
 
-- [__week04__](./week04) Speech Recognition II
-    - Lecture: RNN-T, language model fusion, Byte-Pair Encoding (BPE)
-    - Seminar: --
+  - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
+  - Seminar: Audio Augmentations, Beam Search, Homework discussion
 
-- [__week05__](./week05) Source Separation I
+- [**week04**](./week04) Speech Recognition II
+
+  - Lecture: RNN-T, language model fusion, Byte-Pair Encoding (BPE)
+  - Seminar: --
+
+- [**week05**](./week05) Source Separation I
+
   - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+
   - Seminar: Metrics, Dataset of Mixtures and some tech stuff
 
-- [__week06__](./week06) Source Separation II
+- [**week06**](./week06) Source Separation II
+
   - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
   - Seminar: WienerFilter, SincFilter and DEMUCS
 
-- [__week07__](./week07) Text to Speech (TTS)
+- [**week07**](./week07) Text to Speech (TTS)
+
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
   - Seminar: FastSpeech I
 
-- [__week08__](./week08) Neural Vocoders
+- [**week08**](./week08) Neural Vocoders
+
   - Lecture: WaveNet, Parallel WaveGAN, WaveGlow, MelGAN, HiFiGAN
   - Seminar: WaveNet
 
+- [**week09**](./week09) Voice Conversion
 
-- [__week09__](./week09) Voice Conversion
   - Lecture: Disentanglement & Direct based methods
   - Seminar: TorchScript, HiFi-VC
 
-- [__week10__](./week10) Voice Biometry I
+- [**week10**](./week10) Voice Biometry I
+
   - Lecture: Introduction. CMs for synthesized speech detection (LCNN, RawNet2, AASIST). GNNs
   - Seminar: ASVspoof, Sinc-layer, GNN
 
-- [__week11__](./week11) Voice Biometry II
+- [**week11**](./week11) Voice Biometry II
+
   - Lecture: CMs for replay attack detection. ASV systems. SASV systems. Streaming
   - Seminar: -
 
-- [__week12__](./week12) Diffusion Models for Audio Generation
+- [**week12**](./week12) Diffusion Models for Audio Generation
 
   - Lecture, part 1: Introduction to diffusion models from two perspectives: score matching and latent probabilistic models.
   - Lecture, part2: Diffusion models for audio synthesis and tts. WaveGrad, DiffWave, GradTTS
 
-- __bonus week__ Guest lecture
+- **bonus week** Guest lecture
 
   - Self-Supervised models in ASR
 
-- [__week13__](./week13) Music Generation
+- [**week13**](./week13) Music Generation
 
 -->
 
@@ -83,7 +93,9 @@ TBD
 
 # Resources
 
-- [Lecture recordings on YouTube (in russian)](TBA)
+- [Lecture recordings on YouTube (in russian)](https://youtube.com/playlist?list=PLYG3WHDP5CWVRxLjXZbllqIQTWY_QjKmz)
+
+Some of the weeks have English recordings. See the corresponding sub-directories.
 
 # Contributors & course staff
 
