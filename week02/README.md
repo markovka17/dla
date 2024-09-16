@@ -5,11 +5,11 @@
 
 ### Practice & homework
 
-- **Seminar:**: [notebook](./seminar.ipynb)
+- **Seminar:** [notebook](./seminar.ipynb)
 
 ### Additional Materials
 
-Recording in English for the lecture materials can be found [here](https://youtu.be/YuImUy6vPFs) (Remark: for the MelSpectrogram explanation it is better to look at the current DLA slides instead).
+Recording in English for the lecture materials can be found [here](https://youtu.be/YuImUy6vPFs) (Remark: for the MelSpectrogram explanation, it is better to look at the current DLA slides instead).
 
 More in the presentations, also check the legacy refs:
 
