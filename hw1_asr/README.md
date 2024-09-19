@@ -57,6 +57,9 @@ We also require that you fulfill the following requirements. Not fulfilling them
 - (Up to `-2.0 points` if missing) Implement a simple hand-crafted beam search for the evaluation. You must provide a run showing that your beam search works (improves score in comparison to argmax version).
 - (Up to `-1.0 points` if missing) Implement at least 4 types of audio augmentations that are relevant for the ASR task
 
+> [!NOTE]
+> One of the homework goals is to get practice in proper project development. Thus, we will look at your Git history, `README`, `requirements.txt`, etc. Provide a comprehensive README, do not indicate packages that are not actually needed in the `requirements`, write meaningful commit names, etc. Do not hesitate to use `pre-commit` for code formatting.
+
 ---
 
 ### Quality score
