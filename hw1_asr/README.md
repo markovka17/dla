@@ -54,7 +54,7 @@ We also require that you fulfill the following requirements. Not fulfilling them
   - Audio records / spectrograms (after augmentation)
     1. Create a separate run showing that all you augmentations indeed work.
     2. Log audio / spectrograms in each of your experiments showing that your augmentations are not too severe (otherwise, it is not possible to predict correct text on your input data).
-- (Up to `-2.0 points` if missing) Implement a simple hand-crafted beam search for the evaluation
+- (Up to `-2.0 points` if missing) Implement a simple hand-crafted beam search for the evaluation. You must provide a run showing that your beam search works (improves score in comparison to argmax version).
 - (Up to `-1.0 points` if missing) Implement at least 4 types of audio augmentations that are relevant for the ASR task
 
 ---
@@ -115,10 +115,13 @@ Mention the lines on how to run inference on your final model in the `README`. I
 
 ### Optional tasks
 
-- (`+0.5`) Use an external language model for evaluation. The choice of an LM-fusion method is up to you.
+- (`+0.5`) Use an external language model (LM) for evaluation. The choice of an LM-fusion method is up to you.
   _**Note: implementing this part will yield a very significant quality boost (which will improve your score by a lot). We heavily recommend that you implement this part, despite low bonus points amount.**_
 - (`+1.0`) BPE instead of characters. You can use SentencePiece, HuggingFace, or YouTokenToMe.
 - (up to `+3.0`) Train a LAS model (instead CTC / with CTC). Don't forget to log your attention matrices. You can skip beam-search or implement it for an extra _+1.0_
+
+> [!NOTE]
+> If you use LM, you are allowed to take pretrained LM from the internet and use external library for LM-based beam search. However, you still have to write your own hand-crafted beam search (see [implementation penalties](#implementation-penalties)) and validate it. Similarly, you must provide a run showing that your LM works.
 
 ---
 
