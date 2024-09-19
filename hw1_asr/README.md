@@ -12,7 +12,7 @@ Implement and train a neural-network speech recognition system with a CTC loss.
 
 We **do not** accept the homework if any of the following requirements are not satisfied:
 
-- The code should be stored in a public github (or gitlab) repository and based on the provided template.
+- The code should be stored in a public github (or gitlab) repository and based on the provided template. (Before the deadline, use a private repo. Make it public after the deadline.)
 - All the necessary packages should be mentioned in `./requirements.txt` or be installed in a dockerfile.
 - All necessary resources (such as model checkpoints, LMs, and logs) should be downloadable with a script. Mention the script (or lines of code) in the `README.md`.
 - You should implement all functions in `inference.py` (for evaluation) so that we can check your assignment (see [Testing](#testing) section).
