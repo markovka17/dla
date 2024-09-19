@@ -21,12 +21,13 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
   - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
 
-<!--
-
 - [**week03**](./week03) Speech Recognition I
 
-  - Lecture: Metrics, datasets, Connectionist Temporal Classification (CTC), Listen Attend and Spell (LAS), Beam Search
-  - Seminar: Audio Augmentations, Beam Search, Homework discussion
+  - Lecture: Metrics, Datasets, Connectionist Temporal Classification (CTC), Classic Models, Beam Search, Language models
+  - Seminar: Audio Augmentations, Beam Search
+  - Q&A Session: Homework discussion, R&D coding tips
+
+<!--
 
 - [**week04**](./week04) Speech Recognition II
 
