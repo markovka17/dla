@@ -83,13 +83,11 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 # Homeworks and Projects
 
-TBD
-
+- [**HW_ASR**](./hw1_asr) Training speech recognition model
 <!--
-- [__HW_ASR__](./hw1_asr) Training speech recognition model
-- [__Project_SS__](./project_ss) Training speech separation model
-- [__HW_NV__](./hw3_nv) Implementation of TTS model (Neural Vocoder)
--->
+- [**Project_SS**](./project_ss) Training speech separation model
+- [**HW_NV**](./hw3_nv) Implementation of TTS model (Neural Vocoder)
+  -->
 
 # Resources
 
