@@ -6,6 +6,8 @@ As always, your code **must** be based on the provided [Project Template](https:
 
 Implement and train a neural-network speech recognition system with a CTC loss.
 
+**You cannot use implementations available on the internet.**
+
 ---
 
 ### Mandatory requirements
