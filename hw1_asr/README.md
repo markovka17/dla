@@ -140,7 +140,7 @@ Recommended architectures:
 
 - [DeepSpeech2](http://proceedings.mlr.press/v48/amodei16.pdf)
 - [QuartzNet](https://arxiv.org/abs/1910.10261). Note: it is difficult to train without a large batch size and nice GPU.
-- [Jasper](https://arxiv.org/pdf/1904.03288.pdf)
+- [Jasper](https://arxiv.org/pdf/1904.03288.pdf). Note: it is difficult to train without a large batch size and nice GPU.
 - [Conformer](https://arxiv.org/abs/2005.08100)
 
 Training a good NN model is a challenging task that is extremely difficult to debug. We recommend you to follow these steps:
@@ -167,7 +167,6 @@ Links:
 
 - [Mozilla Common Voice (en)](https://commonvoice.mozilla.org/ru)
 - [LibriSpeech](https://www.openslr.org/12)
-- [LJ Speech](https://keithito.com/LJ-Speech-Dataset/)
 
 To save some coding time, it is recommended to use [HuggingFace dataset library](https://github.com/huggingface/datasets). Look how easy it is:
 
