@@ -31,6 +31,74 @@ We **do not** accept the homework if any of the following requirements are not s
 
   Also attach a summary of all bonus tasks you have implemented.
 
+> [!NOTE]
+> Currently, Comet ML does not support audio panels in their Reports. To show your audio logs, use Python Panel. Code for the Python Panel is shown below (carefully look at the normalization for plotting and check if it works for your audio):
+
+<details>
+
+<summary>Audio Panel Code (as Python Comet ML Panel)</summary>
+
+```python
+# Comet Python Panels BETA, full documentation available at:
+# https://www.comet.com/docs/v2/guides/comet-ui/experiment-management/visualizations/python-panel/
+
+# By Petr Grinberg @ https://github.com/markovka17/dla 2024
+
+from comet_ml import API, ui
+from scipy.io.wavfile import read
+import matplotlib.pyplot as plt
+import os
+import numpy as np
+import streamlit as st
+
+
+# Get available metrics
+api = API()
+metrics = api.get_panel_metrics_names()
+
+exps = api.get_panel_experiments()
+all_possible_steps = []
+for exp in exps:
+    assets = exp.get_asset_list()
+    for asset in assets:
+        if asset["type"] == "audio":
+            step = asset["step"]
+            all_possible_steps.append(step)
+all_possible_steps = sorted(set(all_possible_steps))
+
+step_option = st.selectbox(
+    "Choose a step",
+    all_possible_steps,
+)
+
+for exp in exps:
+    exp_name = exp.name
+    assets = exp.get_asset_list()
+    for asset in assets:
+        if asset["type"] == "audio":
+            curl_command = asset["curlDownload"]
+            filename = asset["fileName"]
+            step = asset["step"]
+            if step != step_option:
+                continue
+            os.system(curl_command)
+            sr, wav_array = read(curl_command.split()[-1])
+            print(f"Exp: {exp_name}, Step: {step}, Name: {filename}")
+            wav_dtype = wav_array.dtype
+            max_amplitude = np.iinfo(np.int16).max
+            wav_array = wav_array / max_amplitude
+            # Visualize the data
+            figure, ax = plt.subplots()
+            wav_time = np.arange(wav_array.shape[0]) / sr
+            ax.plot(wav_time, wav_array)
+            ax.set_xlabel("Time (s)")
+            ax.grid()
+            st.pyplot(figure)
+            st.audio(wav_array, format="audio/wav", sample_rate=sr, loop=False)
+```
+
+</details>
+
 ---
 
 ### Grade
