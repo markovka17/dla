@@ -1,8 +1,7 @@
 # Week 03
 
 - [Lecture slides](https://docs.google.com/presentation/d/1cBXdNIbowwYNp42WhJmd1Pp85oeslOrKNmGyZa5HKBQ/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](TBA)
-- [Recording on Yandex Disk (in Russian)](https://disk.yandex.ru/d/pTZCia6Bq4AeOg/Лекция%2BСеминар%202024-09-19T08-06-52Z.mp4)
+- [Recording on YouTube (in Russian)](https://youtu.be/6xLgfM9ixY4?si=W1B0iXIGYAUVeUIw)
 
 ### Practice & homework
 
