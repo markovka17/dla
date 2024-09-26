@@ -191,7 +191,7 @@ Mention the lines on how to run inference on your final model in the `README`. I
 - (`+0.5`) Use an external language model (LM) for evaluation. The choice of an LM-fusion method is up to you.
   _**Note: implementing this part will yield a very significant quality boost (which will improve your score by a lot). We heavily recommend that you implement this part, despite low bonus points amount.**_
 - (`+1.0`) BPE instead of characters. You can use SentencePiece, HuggingFace, or YouTokenToMe.
-- (up to `+3.0`) Train a LAS model (instead CTC / with CTC). Don't forget to log your attention matrices. You can skip beam-search or implement it for an extra _+1.0_
+- (up to `+3.0`) Train a LAS model (instead CTC / with CTC). Don't forget to log your attention matrices. You can skip beam-search or implement it for an extra _+1.0_. **_Note_**: we do **not** allow RNN-T based models in this year edition of the homework.
 
 > [!NOTE]
 > If you use LM, you are allowed to take pretrained LM from the internet and use external library for LM-based beam search. However, you still have to write your own hand-crafted beam search (see [implementation penalties](#implementation-penalties)) and validate it. Similarly, you must provide a run showing that your LM works.

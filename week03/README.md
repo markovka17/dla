@@ -6,10 +6,12 @@
 ### Practice & homework
 
 - **Seminar:**
-  - Augmentations: `./seminar03_1.ipynb`
-  - CTC Decoding, WER, CER, CTC Beam Search: `./seminar03_2.ipynb`
+
+  - Augmentations: [Notebook](./seminar03_1.ipynb)
+  - CTC Decoding, WER, CER, CTC Beam Search: [Notebook](./seminar03_2.ipynb)
 
 - **Q&A Session:**
+
   - [Project Template](https://github.com/Blinorot/pytorch_project_template)
   - [Notebook about R&D Coding](Seminar_RandD_Coding.ipynb)
   - [Examples from the notebook](./notebook_problems_examples/)
