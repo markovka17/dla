@@ -196,6 +196,12 @@ Mention the lines on how to run inference on your final model in the `README`. I
 > [!NOTE]
 > If you use LM, you are allowed to take pretrained LM from the internet and use external library for LM-based beam search. However, you still have to write your own hand-crafted beam search (see [implementation penalties](#implementation-penalties)) and validate it. Similarly, you must provide a run showing that your LM works.
 
+> [!NOTE]
+> The same holds for the `BPE` bonus. You need to conduct two experiments with\without BPE and compare them (a.k.a. ablation studies).
+
+> [!NOTE]
+> LAS bonus is applied to the table in the [Quality Score](#quality-score) section. This means that your final quality score is $\max(CTC Score, LAS Score + 3)$.
+
 ---
 
 ### Bonus points / penalties
