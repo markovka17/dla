@@ -1,6 +1,6 @@
 # Week 04
 
-- [Lecture slides](TBA)
+- [Lecture slides](https://docs.google.com/presentation/d/1aa1uS7lm3iuxDM5ZDCBNUaWz1E81zUevxYqZIymxgiA/edit?usp=sharing)
 - [Recording on YouTube (in Russian)](TBA)
 
 ### Practice & homework
