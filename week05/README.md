@@ -5,6 +5,8 @@
 
 ### Additional Materials
 
+- [Recording on YouTube (in Russian)](https://youtu.be/0-Rv99qcbZo?si=Trd9piGci4P1dwvD) from 2023, with SSL and additional materials on pseudo-labeling and efficient use of ensembles of models for labeling audio data
+
 - **SSL:**
     - Wav2Vec 2.0 on [arxiv](https://arxiv.org/abs/2006.11477)
     - HuBERT on [arxiv](https://arxiv.org/abs/2106.07447)
