@@ -32,53 +32,56 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: LAS, RNN-T, Language models for RNN-T and LAS
   - Seminar: Hybrid RNN-T and CTC model training and inference
 
+- [**week05**](./week05) Guest Lecture. Speech Recognition III and Audio SSL
+
+  - Lecture: Self-Supervised Models for Audio, Audio LLMs
+
 <!--
 
-- [**week05**](./week05) Source Separation I
+- [**week06**](./week06) Source Separation I
 
   - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+
   - Seminar: Metrics, Dataset of Mixtures and some tech stuff
 
-- [**week06**](./week06) Source Separation II
+- [**week07**](./week07) Source Separation II
 
   - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
   - Seminar: WienerFilter, SincFilter and DEMUCS
 
-- [**week07**](./week07) Text to Speech (TTS)
+- [**week08**](./week08) Audio-Visual Models
+
+  - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
+  - Seminar: WienerFilter, SincFilter and DEMUCS
+
+- [**week09**](./week09) Text to Speech (TTS)
 
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
   - Seminar: FastSpeech I
 
-- [**week08**](./week08) Neural Vocoders
+- [**week10**](./week10) Neural Vocoders
 
   - Lecture: WaveNet, Parallel WaveGAN, WaveGlow, MelGAN, HiFiGAN
   - Seminar: WaveNet
 
-- [**week09**](./week09) Voice Conversion
+- [**week11**](./week11) Voice Conversion
 
   - Lecture: Disentanglement & Direct based methods
   - Seminar: TorchScript, HiFi-VC
 
-- [**week10**](./week10) Voice Biometry I
+- [**week12**](./week12) Voice Biometry I
 
   - Lecture: Introduction. CMs for synthesized speech detection (LCNN, RawNet2, AASIST). GNNs
   - Seminar: ASVspoof, Sinc-layer, GNN
 
-- [**week11**](./week11) Voice Biometry II
+- [**week13**](./week13) Voice Biometry II
 
   - Lecture: CMs for replay attack detection. ASV systems. SASV systems. Streaming
   - Seminar: -
 
-- [**week12**](./week12) Diffusion Models for Audio Generation
+- [**week14**](./week14) Diffusion Models for Audio Generation
 
   - Lecture, part 1: Introduction to diffusion models from two perspectives: score matching and latent probabilistic models.
   - Lecture, part2: Diffusion models for audio synthesis and tts. WaveGrad, DiffWave, GradTTS
-
-- **bonus week** Guest lecture
-
-  - Self-Supervised models in ASR
-
-- [**week13**](./week13) Music Generation
 
 -->
 
@@ -89,6 +92,8 @@ For previous years versions, see [Past Versions](#past-versions) section.
 - [**Project_SS**](./project_ss) Training speech separation model
 - [**HW_NV**](./hw3_nv) Implementation of TTS model (Neural Vocoder)
   -->
+
+See our [project template](https://github.com/Blinorot/pytorch_project_template).
 
 # Resources
 
