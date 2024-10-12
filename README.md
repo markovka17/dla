@@ -36,12 +36,12 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
   - Lecture: Self-Supervised Models for Audio, Audio LLMs
 
-<!--
-
 - [**week06**](./week06) Source Separation I
 
-  - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+
-  - Seminar: Metrics, Dataset of Mixtures and some tech stuff
+  - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+, BandSplitRNN
+  - Seminar: Metrics
+
+<!--
 
 - [**week07**](./week07) Source Separation II
 
@@ -88,7 +88,7 @@ For previous years versions, see [Past Versions](#past-versions) section.
 # Homeworks and Projects
 
 - [**HW_ASR**](./hw1_asr) Training speech recognition model
-- [**Project_SS**](./project_ss) Training speech separation model
+- [**Project_AVSS**](./project_avss) Training audio-visual speech separation model
 <!--
 - [**HW_NV**](./hw3_nv) Implementation of TTS model (Neural Vocoder)
   -->
