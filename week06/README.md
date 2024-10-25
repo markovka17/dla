@@ -5,4 +5,4 @@
 
 ### Practice
 
-- **Seminar**: ./semSpSepTOSOLVE.ipynb
+- **Seminar**: [Notebook](https://github.com/markovka17/dla/blob/2024/week06/semSpSepTOSOLVE.ipynb)
