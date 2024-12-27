@@ -1,7 +1,7 @@
 # Week 03
 
 - [Lecture slides](https://docs.google.com/presentation/d/1cBXdNIbowwYNp42WhJmd1Pp85oeslOrKNmGyZa5HKBQ/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](https://youtu.be/6xLgfM9ixY4?si=W1B0iXIGYAUVeUIw)
+- [Recording on YouTube (in Russian)](https://youtu.be/6xLgfM9ixY4)
 
 ### Practice & homework
 

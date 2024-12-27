@@ -2,7 +2,7 @@
 
 - [Guest lecture slides](KAN_AASIST.pdf)
 - [Lecture slides](https://docs.google.com/presentation/d/1-MMgEA7S2bRU64P-185BSV6GaHsJbbCDp5QvM_WyBwc/edit?usp=sharing)
-- [Recording on YouTube (in Russian)]()
+- [Recording on YouTube (in Russian)](https://youtu.be/HwQlnNRQRbg)
 
 ## Literature
 

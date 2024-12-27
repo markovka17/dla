@@ -1,7 +1,7 @@
 # Week 08
 
 - [Lecture slides](https://docs.google.com/presentation/d/1hxT9oM040ge2wv1BB1lnRbcX3v5LxfHplyxw4lvB2ZA/edit?usp=sharing)
-- [Recording on YouTube (in Russian)]()
+- [Recording on YouTube (in Russian)](https://youtu.be/Dd3H3BQvVE0)
 
 ### Practice
 

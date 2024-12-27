@@ -2,7 +2,7 @@
 
 - [Lecture slides](https://docs.google.com/presentation/d/1RaGjc9JqDTyibkh8hqIemJYtj2ckCXYlPG7345Xqakw/edit?usp=sharing)
 - [Seminar](Seminar_AntiSpoofing.ipynb)
-- [Recording on YouTube (in Russian)]()
+- Recording on YouTube (in Russian): Not available. Please, look at the previous year recordings for weeks [10](https://youtu.be/ZNv4gh9pR1g) and [11](https://youtu.be/VGpcQVWE3Eg). They cover this year material.
 
 There is an English version from the [LauzHack Deep Learning Bootcamp](https://github.com/LauzHack/deep-learning-bootcamp). See [here](https://youtu.be/oim5h1_4T5I).
 
