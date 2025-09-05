@@ -4,7 +4,7 @@
 
 - Lecture and seminar materials for each week are in `./week*` folders, see `README.md` for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
-- The current version of the course is conducted in **autumn 2024** at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/).
+- The current version of the course is conducted in **autumn 2025** at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/).
 
 For previous years versions, see [Past Versions](#past-versions) section.
 
@@ -12,10 +12,11 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 - [**week01**](./week01) Introduction to Course
 
-  - Lecture: Introduction to Course
-  - Seminar: Experiment tracking, `Hydra`, `Git`, `VS code`
+  - Lecture: Introduction to Course + Inspiration
+  - Seminar: Creating convenient DL pipelines and clean code (Part I) -- Experiment tracking, `Hydra`, `Git`, `VS code`
   - Self-Study: Introduction to `PyTorch`
 
+<!--
 - [**week02**](./week02) Introduction to Digital Signal Processing
 
   - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
@@ -80,15 +81,15 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
   - Lecture: Tasks overview, Music Information Retrieval, Music Generation
 
-<!--
+
 -->
 
 # Homeworks and Projects
 
+<!--
 - [**HW_ASR**](./hw1_asr) Training a speech recognition model
 - [**Project_AVSS**](./project_avss) Training an audio-visual speech separation model
 - [**HW_NV**](./hw3_nv) Implementation of a TTS model (Neural Vocoder)
-<!--
   -->
 
 See our [project template](https://github.com/Blinorot/pytorch_project_template).
@@ -107,6 +108,8 @@ Course materials and teaching (in different years) were delivered by:
 - [Petr Grinberg](https://t.me/Blinorot)
 - [Grigory Fedorov](https://t.me/fedorovgv)
 - [Aibek Alanov](https://t.me/aibrain)
+- [Assel Yermekova](https://t.me/Allessyer)
+- [Georgiy Pistsov](https://t.me/GoshaNice)
 - [Alexander Markovich (previously)](https://t.me/markovka17)
 - [Daniil Ivanov (previously)](https://t.me/the_longest_id_in_the_world)
 - [Ilya Lewin (previously)](https://t.me/levensons)
@@ -115,6 +118,7 @@ Course materials and teaching (in different years) were delivered by:
 
 # Past Versions
 
+- [2024](https://github.com/markovka17/dla/tree/2024)
 - [2023](https://github.com/markovka17/dla/tree/2023)
 - [2022](https://github.com/markovka17/dla/tree/2022)
 - [2021](https://github.com/markovka17/dla/tree/2021)
