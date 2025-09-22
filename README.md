@@ -16,18 +16,18 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Seminar: Creating convenient DL pipelines and clean code (Part I) -- Experiment tracking, `Hydra`, `Git`, `VS code`
   - Self-Study: Introduction to `PyTorch`
 
-<!--
 - [**week02**](./week02) Introduction to Digital Signal Processing
 
   - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
   - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
 
-- [**week03**](./week03) Speech Recognition I
+- [**week03**](./week03) Automatic Speech Recognition I
 
   - Lecture: Metrics, Datasets, Connectionist Temporal Classification (CTC), Classic Models, Beam Search, Language models
   - Seminar: Audio Augmentations, Beam Search
-  - Q&A Session: Homework discussion, R&D coding tips
+  - Q&A Session: Homework discussion, Creating convenient DL pipelines and clean code (Part II) -- project development
 
+<!--
 - [**week04**](./week04) Speech Recognition II
 
   - Lecture: LAS, RNN-T, Language models for RNN-T and LAS
@@ -86,8 +86,8 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 # Homeworks and Projects
 
-<!--
 - [**HW_ASR**](./hw1_asr) Training a speech recognition model
+<!--
 - [**Project_AVSS**](./project_avss) Training an audio-visual speech separation model
 - [**HW_NV**](./hw3_nv) Implementation of a TTS model (Neural Vocoder)
   -->
