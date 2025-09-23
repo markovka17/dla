@@ -1,7 +1,7 @@
 # Week 02
 
 - [Lecture slides](https://docs.google.com/presentation/d/1Ej3q6PPe3rUyS4bwqSaxu_J11wFxL6rTnT5KJNX2Mfs/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](TBA)
+- [Recording on YouTube (in Russian)](https://youtu.be/-LApFT6bG7M)
 
 ### Practice & homework
 

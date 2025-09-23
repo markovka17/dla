@@ -96,7 +96,7 @@ See our [project template](https://github.com/Blinorot/pytorch_project_template)
 
 # Resources
 
-- [Lecture recordings on YouTube (in russian)](https://youtube.com/playlist?list=PLYG3WHDP5CWVRxLjXZbllqIQTWY_QjKmz)
+- [Lecture recordings on YouTube (in russian)](https://youtube.com/playlist?list=PLYG3WHDP5CWXhMe2bi9vsWoChOD-ScB04)
 
 Some of the weeks have English recordings. See the corresponding sub-directories.
 

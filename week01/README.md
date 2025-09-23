@@ -1,7 +1,7 @@
 # Week 01
 
 - [Lecture slides](https://docs.google.com/presentation/d/1qcEsrkNwtzgbySZX_DGprq-7TiYTPIBtpixtRJ-cTOs/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](https://youtu.be/zcSTrzW7kbs)
+- [Recording on YouTube (in Russian)](https://youtu.be/4u5JROdwkMM)
 
 ### Practice
 
