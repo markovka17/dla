@@ -160,22 +160,22 @@ Below is the table for **CTC**-based submissions.
 | 9.5   | LibriSpeech: **test-other** | --  | 15  | You are close to human performance.                                             |
 | 10.0  | LibriSpeech: **test-other** | --  | 10  | Technically better than a human. Well done!                                     |
 
-For **RNN-T** and **LAS** boundaries are provided below:
+For **RNN-T** and **LAS** boundaries are provided below (**Implementing RNN-T or LAS gives you +1 point if you use it as a final HW submission**):
 
-| Score | Dataset                     | CER (LAS) | WER (LAS) | CER (RNN-T) | WER (RNN-T) |
-| ----- | --------------------------- | --------- | --------- | ----------- | ----------- |
-| 1.0   | --                          | TBA       | TBA       | TBA         | TBA         |
-| 2.0   | LibriSpeech: test-clean     | TBA       | TBA       | TBA         | TBA         |
-| 3.0   | LibriSpeech: test-clean     | TBA       | TBA       | TBA         | TBA         |
-| 4.0   | LibriSpeech: test-clean     | TBA       | TBA       | TBA         | TBA         |
-| 5.0   | LibriSpeech: test-clean     | TBA       | TBA       | TBA         | TBA         |
-| 6.0   | LibriSpeech: test-clean     | TBA       | TBA       | TBA         | TBA         |
-| 7.0   | LibriSpeech: test-clean     | TBA       | TBA       | TBA         | TBA         |
-| 8.0   | LibriSpeech: **test-other** | TBA       | TBA       | TBA         | TBA         |
-| 8.5   | LibriSpeech: **test-other** | TBA       | TBA       | TBA         | TBA         |
-| 9.0   | LibriSpeech: **test-other** | TBA       | TBA       | TBA         | TBA         |
-| 9.5   | LibriSpeech: **test-other** | TBA       | TBA       | TBA         | TBA         |
-| 10.0  | LibriSpeech: **test-other** | TBA       | TBA       | TBA         | TBA         |
+| Score | Dataset                     | CER (LAS / RNN-T) | WER (LAS / RNN-T) |
+| ----- | --------------------------- | ----------------- | ----------------- |
+| 1.0   | --                          | --                | --                |
+| 2.0   | LibriSpeech: test-clean     | 50                | --                |
+| 3.0   | LibriSpeech: test-clean     | 30                | --                |
+| 4.0   | LibriSpeech: test-clean     | 10                | --                |
+| 5.0   | LibriSpeech: test-clean     | --                | 30                |
+| 6.0   | LibriSpeech: test-clean     | --                | 20                |
+| 7.0   | LibriSpeech: test-clean     | --                | 15                |
+| 8.0   | LibriSpeech: **test-other** | --                | 25                |
+| 8.5   | LibriSpeech: **test-other** | --                | 20                |
+| 9.0   | LibriSpeech: **test-other** | --                | 15                |
+| 9.5   | LibriSpeech: **test-other** | --                | 12                |
+| 10.0  | LibriSpeech: **test-other** | --                | 8                 |
 
 > [!IMPORTANT]
 > All the results will be sanity-checked on an unannounced dataset. So it's not a good idea to fine-tune on a test set. It will be considered as cheating.

@@ -27,12 +27,12 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Seminar: Audio Augmentations, Beam Search
   - Q&A Session: Homework discussion, Creating convenient DL pipelines and clean code (Part II) -- project development
 
-<!--
 - [**week04**](./week04) Speech Recognition II
 
   - Lecture: LAS, RNN-T, Language models for RNN-T and LAS
   - Seminar: Hybrid RNN-T and CTC model training and inference
 
+<!--
 - [**week05**](./week05) Guest Lecture. Speech Recognition III and Audio SSL
 
   - Lecture: Self-Supervised Models for Audio, Audio LLMs
