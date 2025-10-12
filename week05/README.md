@@ -1,23 +1,20 @@
-# Week 04
+# Week 05
 
-- [Lecture slides](https://docs.google.com/presentation/d/1QF62Xxn3K4t0J778i1NoPfUBBY8Z_wIwSxXZKDlkY2s/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](TBA)
-
-### Practice & homework
-
-- **Seminar:**
-  - SNR, SI-SNR and more, perceptual evaluation: [Notebook](Seminar_05.ipynb)
-  - Audio preview plugin (VS Code) https://marketplace.visualstudio.com/items?itemName=sukumo28.wav-preview
+- [Lecture slides](https://docs.google.com/presentation/d/15Cf3J6_REl-raJW9cuUrRxp8uCwxcOmkJ2jLE7pAebs/edit)
+- [Recording on YouTube (in Russian)](https://youtu.be/7prnZ_kh2KI)
 
 ### Additional Materials
 
-Spectrogram reading (some simple explanations)
+- [Recording on YouTube (in Russian)](https://youtu.be/0-Rv99qcbZo) from 2023, with SSL and additional materials on pseudo-labeling and efficient use of ensembles of models for labeling audio data
 
-- https://scicoding.com/introduction-to-spectrograms/
-- https://splice.com/blog/what-is-a-spectrogram/
-- https://www.izotope.com/en/learn/understanding-spectrograms?srsltid=AfmBOoowGzEiEwqArXp4uLpSKHveEYcRccKqDS_ZNBvWpVARRDw4mfwI
-- https://arxiv.org/abs/2403.09321
+- **SSL:**
 
-Some advanced technical explanations
+  - GigaAM on [arxiv](https://arxiv.org/abs/2506.01192)
+  - Wav2Vec 2.0 on [arxiv](https://arxiv.org/abs/2006.11477)
+  - HuBERT on [arxiv](https://arxiv.org/abs/2106.07447)
+  - BEST-RQ on [arxiv](https://arxiv.org/pdf/2202.01855)
 
-- Peter Vary, Rainer Martin Digital Speech Transmission and Enhancement, Second Edition, IEEE Press, John Wiley & Sons, 2023. (Chapter 3)
+- **Audio LLM**:
+  - Seed-ASR on [arxiv](https://arxiv.org/pdf/2407.04675)
+  - AudioChatLLaMA on [arxiv](https://arxiv.org/pdf/2311.06753v2)
+  - LLaMA 3 on [arxiv](https://arxiv.org/pdf/2407.21783)

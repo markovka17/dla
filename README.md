@@ -32,7 +32,6 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: LAS, RNN-T, Language models for RNN-T and LAS
   - Seminar: Hybrid RNN-T and CTC model training and inference
 
-<!--
 - [**week05**](./week05) Guest Lecture. Speech Recognition III and Audio SSL
 
   - Lecture: Self-Supervised Models for Audio, Audio LLMs
@@ -42,6 +41,7 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+, BandSplitRNN
   - Seminar: Metrics
 
+<!--
 - [**week07**](./week07) Source Separation II
 
   - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
