@@ -77,7 +77,7 @@ NameOfTheDirectoryWithUtterances
 
 It should have an argument for the path to this custom directory that can be changed via `Hydra`-options.
 
-The `inference.py` script must apply the model on the given dataset (custom-one or any other supported in your `src`) and save separated utterances in the requested directory. The separated utterance output name should be the same as the mix name (so they can be matched together, see example for how ground-truth utterances are located).
+The `inference.py` script must apply the model on the given dataset (custom-one or any other supported in your `src`) and save separated utterances in the requested directory. The separated utterance output name should be the same as the mix name (so they can be matched together, see example for how ground-truth utterances are located). Note that ground-truth may not be given and you should handle this case.
 
 Provide a separate script that calculates all required metrics given the path to ground truth and predicted `s1` and `s2` utterances.
 
