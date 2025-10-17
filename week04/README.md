@@ -7,6 +7,7 @@
 
 - **Seminar:**
   - CTC and RNN-T Hybrid model: [Notebook](Seminar_04.ipynb)
+  - Recording is in Week 05: [link](https://youtu.be/zu1IfN4C5tg)
 
 ### Additional Materials
 

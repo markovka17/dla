@@ -87,8 +87,8 @@ For previous years versions, see [Past Versions](#past-versions) section.
 # Homeworks and Projects
 
 - [**HW_ASR**](./hw1_asr) Training a speech recognition model
-<!--
 - [**Project_AVSS**](./project_avss) Training an audio-visual speech separation model
+<!--
 - [**HW_NV**](./hw3_nv) Implementation of a TTS model (Neural Vocoder)
   -->
 

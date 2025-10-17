@@ -1,7 +1,7 @@
 # Week 05
 
-- [Lecture slides](https://docs.google.com/presentation/d/15Cf3J6_REl-raJW9cuUrRxp8uCwxcOmkJ2jLE7pAebs/edit)
-- [Recording on YouTube (in Russian)](https://youtu.be/7prnZ_kh2KI)
+- [Lecture slides](https://docs.google.com/presentation/d/1VcqAQzq1xjfe-mFW85k-Mzw4YhmntorkpK3KTb0K3u4)
+- [Recording on YouTube (in Russian)](https://youtu.be/zu1IfN4C5tg)
 
 ### Additional Materials
 
