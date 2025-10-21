@@ -103,7 +103,7 @@ The structure of the demo:
 To ensure fair evaluation, use Google Colab as the testing server for the verification of your demo. If your demo code works in a fresh Colab session, then there should not be any problems. If it doesn't work in Colab, we will penalize it.
 
 > [!IMPORTANT]
-> This time, the secret dataset uses Yandex Disk. Make sure you can support downloading from Yandex, e.g. using [Yadisk tool](https://github.com/Yegorov/yadisk).
+> This time, the secret dataset uses Yandex Disk. Make sure you can support downloading from Yandex, e.g. using [Yadisk tool](https://github.com/Yegorov/yadisk). The dataset is compressed (`.zip` format)
 
 ### Report
 
