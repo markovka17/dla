@@ -1,7 +1,7 @@
 # Week 06
 
 - [Lecture slides](https://docs.google.com/presentation/d/1QF62Xxn3K4t0J778i1NoPfUBBY8Z_wIwSxXZKDlkY2s/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](TBA)
+- [Recording on YouTube (in Russian)](https://youtu.be/pGXBwfy1Vvk)
 
 ### Practice & homework
 

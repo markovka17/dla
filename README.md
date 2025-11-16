@@ -41,7 +41,6 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+, BandSplitRNN
   - Seminar: Metrics
 
-<!--
 - [**week07**](./week07) Source Separation II
 
   - Lecture: Speech separation, Blind and Target Separation, Recurrent(TasNet, DPRNN, VoiceFilter) and CNN(ConvTasNet, SpEx+)
@@ -49,19 +48,21 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 - [**week08**](./week08) Audio-Visual Deep Learning
 
-  - Lecture: Audio-Visual Fusion, Source Separation, Speech Recognition, and Self-Supervised Models. Wav2Lip and SadTalker (talking face)
-  - Q&A: Project and Slurm discussion
-  - Extra Seminar: Create Your Own Intelligent Voice Assistant
+  - Lecture: Audio-Visual Fusion, Source Separation, Speech Recognition, and Self-Supervised Models. Wav2Lip and joint audio-visual generation (Diffusion and LLM-based).
+  - Q&A: Project discussion
 
-- [**week09**](./week09) Text to Speech (TTS)
+- [**week09**](./week09) Text to Speech (TTS) -- Neural Vocoders and Text-To-Mel
 
   - Lecture: Tacotron, DeepVoice, GST, FastSpeech, AdaSpeech, Attention Tricks
-  - Seminar: postponed
+  - Lecture: Hifi-GAN
+  - Seminar: [AudioBot](https://github.com/Blinorot/AudioBot)
 
-- [**week10**](./week10) Neural Vocoders
+- [**week10**](./week10) Neural Audio Codecs
 
-  - Lecture: WaveNet, Parallel WaveGAN, WaveGlow, MelGAN, HiFiGAN
-  - Seminar: FastSpeech I, TTS pipeline: from text to audio
+  - Lecture: Core architectures and techniques
+  - Seminar: Implementation of a Neural Audio Codec
+
+<!--
 
 - [**week11**](./week11) Diffusion-based TTS
 
