@@ -62,11 +62,11 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: Core architectures and techniques
   - Seminar: Implementation of a Neural Audio Codec
 
-<!--
-
 - [**week11**](./week11) Diffusion-based TTS
 
   - Lecture: Diffusion concept. Diffusion Vocoders and Diffusion acoustic models.
+
+<!--
 
 - [**week12**](./week12) Voice Biometry I
 
@@ -89,8 +89,8 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 - [**HW_ASR**](./hw1_asr) Training a speech recognition model
 - [**Project_AVSS**](./project_avss) Training an audio-visual speech separation model
-<!--
 - [**HW_NV**](./hw3_nv) Implementation of a TTS model (Neural Vocoder)
+<!--
   -->
 
 See our [project template](https://github.com/Blinorot/pytorch_project_template).
