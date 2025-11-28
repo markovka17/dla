@@ -221,4 +221,20 @@ To give you a rough idea of how we are going to evaluate, the scale is _approxim
     1. At least it squeaks
     0. Vacuum cleaner
 
-**There are no bonuses for this homework.**
+## Bonuses
+
+- [`0.5` points]. Try to improve model robustness to fake Melspectrograms (created using a text-to-mel system that you used). Explain your approach and how it should help. Compare your checkpoints before and after robustness improvement quantitatively (using some metrics (PESQ, STOI, Neural MOS, etc.)) and qualitatively (by analyzing generated utterances as in the [Report](#report) section). As in the [Report](#report) section, we expect you to provide details and deep analysis.
+
+- [`2.0` points]. **In addition** to the main homework task/model (HiFi-GAN), you need to provide a Voice Conversion model [Hifi-VC](https://arxiv.org/pdf/2203.16937). To do so, you need to replace Melspectrograms with ASR features and add a Speaker Verification embedding. We allow you to take pretrained ASR and Speaker Verification backbones of your choice, but these checkpoints should only solve their own tasks (you cannot take checkpoints specifically tuned for Voice Conversion or from the existing Voice Conversion systems). **You cannot use Voice Conversion implementations available in the web**. Use [VCTK](https://datashare.ed.ac.uk/handle/10283/2651) dataset. Provide details:
+  - Explain your HiFi-VC system design and architecture choice including the reason behind it. Provide links to the pretrained model checkpoints/repos/etc.
+  - Explain how you trained the model, provide logs analysis, etc. -- as in all the homeworks.
+  - Mix the speakers from the test set we gave you (`i`-th speaker says the utterance of `j`-th speaker), show the resulting audio signals and spectrograms.
+  - Analyze the quality by providing some metrics and comparing with the real spectrograms as discussed in the [Report](#report) section.
+  - Provide usage Demo in your `Demo.ipynb`. Let the user choose the speaker reference audio (for speaker embedding) and the target audio (for speech content).
+  - Make sure to provide your final checkpoint too.
+
+> [!TIP]
+> If your HiFi-GAN does not work, you should not start doing HiFi-VC because it is a harder modification of HiFI-GAN.
+
+> [!IMPORTANT]
+> Make sure that you do bonuses using proper configuration techniques and avoid unnecessary copy-pasting. This means that the bonuses must be solved by adding new dataset/model files and configs, which can be easily switched using `Hydra` CLI.
