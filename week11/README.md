@@ -1,4 +1,4 @@
 # Week 11
 
-- [Lecture slides](TBA)
-- [Recording on YouTube (in Russian)](TBA)
+- [Lecture slides](DiffusionModelsforAudioGeneration2025.pdf)
+- [Recording on YouTube (in Russian)](https://youtu.be/CYhXXjzjZlw)

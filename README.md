@@ -64,24 +64,23 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 - [**week11**](./week11) Diffusion-based TTS
 
-  - Lecture: Diffusion concept. Diffusion Vocoders and Diffusion acoustic models.
-
-<!--
+  - Lecture: Diffusion concept. Diffusion Vocoders and Diffusion acoustic models. Latent Diffusion.
 
 - [**week12**](./week12) Voice Biometry I
 
   - Lecture: Introduction. Reverberation. CMs for recorded and synthesized speech detection (LCNN, RawNet2, AASIST). GNNs
   - Seminar: ASVspoof, Sinc-layer, GNN
 
-- [**week13**](./week13) Voice Biometry II
+- [**week13**](./week13) XAI and Voice Biometry II
 
-  - Guest Lecture: Kolmogorov-Arnold Networks (KANs), AASIST3, ASVspoof5
-  - Lecture: ASV systems. SASV systems. Streaming
+  - Lecture 1: Explainable AI (XAI), core methods, XAI evaluation and issues, XAI for deepfakes
+  - Lecture 2: ASV systems. SASV systems. Streaming
+
+<!--
 
 - [**week14**](./week14) AI for Music
 
   - Lecture: Tasks overview, Music Information Retrieval, Music Generation
-
 
 -->
 
