@@ -1,13 +1,14 @@
 # Week 01
 
-- [Lecture slides](https://docs.google.com/presentation/d/1qcEsrkNwtzgbySZX_DGprq-7TiYTPIBtpixtRJ-cTOs/edit?usp=sharing)
-- [Recording on YouTube (in Russian)](https://youtu.be/4u5JROdwkMM)
+- [Lecture slides]https://docs.google.com/presentation/d/11YbBi8iD8v5xVJpbZJEPuG30sJFTI2wEvCMRo_ehA4c/edit?usp=sharing)
+- [Recording on YouTube (in Russian)](https://youtu.be/8txbx8DbvJ8)
 
 ### Practice
 
-- **Self-Study:** See notebooks in [Intro to PyTorch](./intro_to_pytorch/)
+- **Self-Study:** 
 
-- **Seminar:**
+See notebooks in [Intro to PyTorch](./intro_to_pytorch/), also (legacy, though immensely cool)
+
   - [Creating convenient DL pipelines and clean code](https://docs.google.com/presentation/d/1jJW05L_8svbe9rFHFPrndZB_07SABfrBaflK8MFAux4/edit?usp=sharing)
   - [Experiment Tracking (logging) Notebook](./Seminar_Logging.ipynb)
   - [Git, Python-Dev-Tips Slides](https://docs.google.com/presentation/d/1wQIFPCQnp_ZVZ1ELJTxtfjfDw1MGQ9lMKuwqu3x-gcI/edit?usp=sharing)
