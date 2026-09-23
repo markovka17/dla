@@ -16,7 +16,7 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Seminar: Free talk
   - Self-Study: Introduction to `PyTorch` and basic devOps
 
-- [**week02**](./week02) Introduction to Digital Signal Processing (TBA)
+- [**week02**](./week02) Introduction to Digital Signal Processing
 
   - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
   - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
