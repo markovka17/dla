@@ -21,4 +21,4 @@ Some refs (including the legacy ones).
 
 [Alexander Pushnoy and Harmonics](https://youtu.be/eJeW81r72uc?si=Ytr4FyNZhR4mB_Pe)
 
-[Christian Henson (Spitfire Audio, Crowhill Company, Pianobook) demonstrating sampling with 192 kHz](https://youtu.be/eJeW81r72uc?si=Ytr4FyNZhR4mB_Pe)
+[Christian Henson (Spitfire Audio, Crowhill Company, Pianobook) demonstrating sampling with 192 kHz](https://youtu.be/IfwKRG23Fhk?si=8cz0DbSipXyDvnsh)
