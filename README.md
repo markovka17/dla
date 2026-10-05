@@ -21,6 +21,17 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: Signals, Fourier Transform, spectrograms, MelScale, MFCC
   - Seminar: DSP in practice, spectrogram creation, IRF, frequency filtering
 
+- [**week03**](./week03) Automatic Speech Recognition I
+
+  - Lecture: Metrics, Datasets, Connectionist Temporal Classification (CTC), DeepSpeech, Conformer, Beam Search, Language models
+  - Seminar: Audio Augmentations, Beam Search
+  - Q&A Session: Homework discussion, Creating convenient DL pipelines and clean code (Part II) -- project development
+
+- [**week04**](./week04) Automatic Speech Recognition II
+
+  - Lecture: LAS, RNN-T, Language models for RNN-T and LAS, OpenAI Whisper
+  - Seminar: Hybrid RNN-T and CTC model training and inference
+
 TBA
 <!--
 
