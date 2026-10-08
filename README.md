@@ -4,7 +4,7 @@
 
 - Lecture and seminar materials for each week are in `./week*` folders, see `README.md` for materials and instructions
 - Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue
-- The current version of the course is conducted in **autumn 2025** at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/).
+- The current version of the course is conducted in **autumn 2026** at the [CS Faculty](https://cs.hse.ru/en/) of [HSE](https://www.hse.ru/en/).
 
 For previous years versions, see [Past Versions](#past-versions) section.
 
@@ -23,9 +23,8 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 - [**week03**](./week03) Automatic Speech Recognition I
 
-  - Lecture: Metrics, Datasets, Connectionist Temporal Classification (CTC), DeepSpeech, Conformer, Beam Search, Language models
-  - Seminar: Audio Augmentations, Beam Search
-  - Q&A Session: Homework discussion, Creating convenient DL pipelines and clean code (Part II) -- project development
+  - Lecture: Metrics, Datasets, Connectionist Temporal Classification (CTC), DeepSpeech2, Conformer, Beam Search, Language models
+  - Seminar: Audio Augmentations, WER and CER, CTC Decoding
 
 - [**week04**](./week04) Automatic Speech Recognition II
 
@@ -44,8 +43,6 @@ TBA
 # Homeworks and Projects
 
 TBA
-<!--
-  -->
 
 See our [project template](https://github.com/Blinorot/pytorch_project_template).
 
