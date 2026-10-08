@@ -28,8 +28,8 @@ For previous years versions, see [Past Versions](#past-versions) section.
 
 - [**week04**](./week04) Automatic Speech Recognition II
 
-  - Lecture: LAS, RNN-T, Language models for RNN-T and LAS, OpenAI Whisper
-  - Seminar: Hybrid RNN-T and CTC model training and inference
+  - Lecture: LAS, Hybrid CTC/Attention, OpenAI Whisper, RNN-T, Streaming ASR, Decoder-only ASR
+  - Seminar: Whisper: greedy decoding, prompting, alignment in cross-attention, language forcing
 
 TBA
 <!--
