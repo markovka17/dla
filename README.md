@@ -31,6 +31,15 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: LAS, Hybrid CTC/Attention, OpenAI Whisper, RNN-T, Streaming ASR, Decoder-only ASR
   - Seminar: Whisper: greedy decoding, prompting, alignment in cross-attention, language forcing
 
+- [**week05**](./week05) Guest Lecture. Speech Recognition III and Audio SSL
+
+  - Lecture: Self-Supervised Models for Audio, Audio LLMs  (TBA)
+
+- [**week06**](./week06) Source Separation I
+
+  - Lecture: A review of general Source Separation and Denoising, Encoder-Decoder-Separator architectures, Demucs family, DCCRN, FullSubNet+, BandSplitRNN
+  - Seminar: Metrics
+
 TBA
 <!--
 
