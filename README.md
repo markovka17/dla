@@ -31,9 +31,9 @@ For previous years versions, see [Past Versions](#past-versions) section.
   - Lecture: LAS, Hybrid CTC/Attention, OpenAI Whisper, RNN-T, Streaming ASR, Decoder-only ASR
   - Seminar: Whisper: greedy decoding, prompting, alignment in cross-attention, language forcing
 
-- [**week05**](./week05) Guest Lecture. Speech Recognition III and Audio SSL
+- [**week05**](./week05) Automatic Speech Recognition III and Audio SSL
 
-  - Lecture: Self-Supervised Models for Audio, Audio LLMs  (TBA)
+  - Lecture: Self-Supervised Learning for Speech, wav2vec 2.0, HuBERT, BEST-RQ, GigaAM, LLM-based ASR, Delayed Streams Modeling, Encoder-free Architectures
 
 - [**week06**](./week06) Source Separation I
 
